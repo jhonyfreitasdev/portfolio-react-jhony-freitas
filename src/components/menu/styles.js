@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
+    position: relative;
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    z-index: 1;
 
     ul{
         display: flex;

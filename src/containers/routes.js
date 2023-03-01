@@ -1,12 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { Home } from "./pages";
-import { About } from "../about/pages";
-import { Projects } from "../projects/pages";
-import { Skills } from "../skills/pages";
-import { Contact } from "../contact/pages";
+import { Menu } from "../components/menu"
+import { Home } from "../features/home/pages";
+import { About } from "../features/about/pages";
+import { Projects } from "../features/projects/pages";
+import { Skills } from "../features/skills/pages";
+import { Contact } from "../features/contact/pages";
  
 export const AppRoutes = () => (
     <BrowserRouter>
+        <Menu />
         <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/sobre" element={<About />} />

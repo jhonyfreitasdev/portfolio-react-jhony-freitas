@@ -2,5 +2,5 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     padding: 15px;
-    height: 100vh;
+    height: 90vh;
 `
