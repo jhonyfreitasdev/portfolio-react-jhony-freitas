@@ -13,11 +13,14 @@ export const DivInfo = styled.div`
     p{
         display: flex;
         align-items: center;
+        font-size: 19px;
     }
 
-    img{
-        width: 30px;
-    }
+    img{ width: 35px; }
+
+    h1{ font-size: 50px; }
+
+    h3{ font-size: 25px; }
 `
 
 export const Div = styled.div`

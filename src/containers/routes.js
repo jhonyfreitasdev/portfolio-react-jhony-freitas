@@ -5,7 +5,7 @@ import { About } from "../features/about/pages";
 import { Projects } from "../features/projects/pages";
 import { Skills } from "../features/skills/pages";
 import { Contact } from "../features/contact/pages";
- 
+
 export const AppRoutes = () => (
     <BrowserRouter>
         <Menu />

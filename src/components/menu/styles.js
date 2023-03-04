@@ -4,7 +4,10 @@ export const Nav = styled.nav`
     position: relative;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    background-color: #000000;
+    max-width: 1440px; 
+    padding: 20px 0 10px 0;
+    margin: 0 auto;
     z-index: 1;
 
     ul{
