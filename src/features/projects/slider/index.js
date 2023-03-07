@@ -1,17 +1,44 @@
+import { useState } from "react";
+import { projectsList } from "../objects/projects-list"
+
 import SetaEsquerda from "../../../_assets/images/seta-esquerda.png";
 import SetaDireita from "../../../_assets/images/seta-direita.png";
+
 import { Project } from "../project";
 import { Container, SetaVoltar, SetaAvancar } from "./styles";
 
 export const Slider = () => {
+    const [item, setItem] = useState(0)
+
+    const skipProject = () => {
+        let copyState = item
+        if(copyState === projectsList.length -1 ){
+            return
+        }else{
+            copyState = copyState + 1
+            setItem(copyState)
+        }
+    }
+
+    const prevProject = () => {
+        let copyState = item
+        if (copyState === 0){
+            return
+        }else{
+            copyState = copyState - 1 
+            setItem(copyState)
+        } 
+    }
+
     return(
         <Container>
-            <SetaVoltar href="#voltar"> <img src={SetaEsquerda} alt="Seta de voltar" /> </SetaVoltar>
-            <Project fylo />
-            <SetaAvancar> <img src={SetaDireita} alt="Seta de avançar" /> </SetaAvancar>
+            <SetaVoltar href="#voltar" onClick={prevProject}> <img src={SetaEsquerda} alt="Seta de voltar" /> </SetaVoltar>
+            <Project item={projectsList[item]} />
+            <SetaAvancar href="#avancar" onClick={skipProject}> <img src={SetaDireita} alt="Seta de avançar" /> </SetaAvancar>
         </Container>
     )
 }
 
-// Criar styled component para carregar o Project de acordo com a prop
-// A seta vai definir a prop pegando do Array
+// Usar parâmetro com no stado 
+
+// 

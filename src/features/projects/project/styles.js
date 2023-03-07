@@ -9,7 +9,6 @@ export const Info = styled.div`
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%); 
-    transition: 1s;
 `
 
 export const Gif = styled.img`
@@ -50,7 +49,7 @@ export const GifContainer = styled.div`
         width: 1215px;
         height: 575px;
         ${Gif}{
-            opacity: 0.3;
+            opacity: 0.2;
         }
         ${Info}{
             display:flex;

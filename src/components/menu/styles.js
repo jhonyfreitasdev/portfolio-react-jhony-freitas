@@ -6,7 +6,7 @@ export const Nav = styled.nav`
     justify-content: center;
     background-color: #000000;
     max-width: 1440px; 
-    padding: 20px 0 10px 0;
+    padding: 30px 0 10px 0;
     margin: 0 auto;
     z-index: 1;
 
@@ -19,6 +19,7 @@ export const Nav = styled.nav`
     }
 
     li{
-        margin: 0 10px;
+        font-size: 20px;
+        margin: 0 25px;
     }
 `
