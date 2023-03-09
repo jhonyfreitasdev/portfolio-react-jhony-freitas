@@ -1,14 +1,22 @@
+import fotoPerfil from "../../../_assets/images/foto-03.jpg";
 import styled from "styled-components"
 
 export const Container = styled.div`
-    display: flex;
-    align-items: center;
+    position: relative;
     background-color: #000000;
     max-width: 1440px;
-    height: 90vh;
-    padding: 15px;
+    height: 100vh;
+    padding: 75px 0 0 0;  
     margin: 0 auto;
 `
 
-
-
+export const Image = styled.div`
+    opacity: 0.8;
+    background-image: url(${fotoPerfil});
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+`

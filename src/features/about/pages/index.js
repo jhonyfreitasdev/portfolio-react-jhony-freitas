@@ -1,12 +1,11 @@
 import { Description } from "../description";
-import { Image } from "../profile-image";
-import { Container} from "./styles";
+import { Container, Image} from "./styles";
 
 export const About = () => {
     return(
         <Container>
-            <Description />
             <Image />
+            <Description />
         </Container>
     )
 }

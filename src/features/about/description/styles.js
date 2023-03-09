@@ -1,7 +1,18 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 55%;
+    position: absolute;
+    background-color: #00000088;
+    width: 40%;
+    padding: 15px;
+    border-radius: 5px;
+    top: 55%;
+    left: 26%;
+    transform: translateX(-50%) translateY(-50%);
+
+    p{
+        margin-bottom: 10px;
+    }
 `
 
 export const ButtonCv = styled.a`
@@ -13,7 +24,7 @@ export const ButtonCv = styled.a`
     width: 100px;
     padding: 5px;
     border-radius: 7px;
-
+    
     i{
         background-color: #ffffff;
         color: #000000;

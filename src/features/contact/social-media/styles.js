@@ -7,6 +7,12 @@ export const List = styled.ul`
 
     li{ margin: 15px; }
 
-    i{ font-size: 43px; transition: 0.3s ease-in-out; }
+    i{ 
+        font-size: 43px; 
+        transition: 0.3s ease-in-out;
+    }
 
+    i:hover{
+        transform: translateY(-3px) translateX(-2px);
+    }
 `

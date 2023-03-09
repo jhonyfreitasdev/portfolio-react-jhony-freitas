@@ -1,20 +1,24 @@
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-    position: relative;
+    position: fixed;
     display: flex;
     justify-content: center;
-    background-color: #000000;
+    background-image: linear-gradient(to bottom, ${props => props.theme.color01}, ${props => props.theme.color03});
+    width: 100%;
     max-width: 1440px; 
-    padding: 30px 0 10px 0;
+    padding: 20px 0 15px 0;
     margin: 0 auto;
+    top: 0;
+    left: 50%;
     z-index: 1;
+    transform: translateX(-50%);
 
     ul{
         display: flex;
         font-family: ${props => props.theme.primaryFont};
-        padding: 10px;
-        border: 1px solid #ffffff;
+        padding: 5px 10px;
+        border: 1px solid ${props => props.theme.color06};
         border-radius: 20px;
     }
 

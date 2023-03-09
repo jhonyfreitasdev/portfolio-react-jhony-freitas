@@ -7,7 +7,7 @@ export const Container = styled.div`
     align-items: center;
     background-color: #000000;
     max-width: 1440px;
-    height: 90vh;
+    height: 100vh;
     padding: 15px;
     margin: 0 auto;
 `

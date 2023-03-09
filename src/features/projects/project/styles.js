@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Info = styled.div`
     position: absolute;
-    display none;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ export const Button = styled.a`
     color: #000000;
     font-size: 18px;
     text-align: center;
-    width 120px;
+    width: 120px;
     padding: 7px 12px;
     margin: 0 15px;
     border-radius: 7px;
@@ -39,15 +39,17 @@ export const Button = styled.a`
 
 export const GifContainer = styled.div`
     position: relative;
-    width: 1200px;
-    height: 560px;
+    background-color: #000000;
+    width: 1190px;
+    height: 550px;
     border-radius: 7px;
+    margin: 95px auto 0 auto;
     overflow: hidden;
     transition: ease-in-out 0.4s;
 
     &:hover {
-        width: 1215px;
-        height: 575px;
+        width: 1200px;
+        height: 560px;
         ${Gif}{
             opacity: 0.2;
         }

@@ -38,7 +38,3 @@ export const Slider = () => {
         </Container>
     )
 }
-
-// Usar parâmetro com no stado 
-
-// 
