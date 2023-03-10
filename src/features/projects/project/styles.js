@@ -38,14 +38,17 @@ export const Button = styled.a`
 `
 
 export const GifContainer = styled.div`
-    position: relative;
+    position: absolute;
     background-color: #000000;
-    width: 1190px;
-    height: 550px;
-    border-radius: 7px;
-    margin: 95px auto 0 auto;
     overflow: hidden;
     transition: ease-in-out 0.4s;
+    border-radius: 7px;
+    margin: 95px auto 0 auto;
+    width: 1190px;
+    height: 550px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-60%);
 
     &:hover {
         width: 1200px;
