@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
         outline: none;
     }
 
-    body {background: linear-gradient(265deg, ${variables.darkColor}, ${variables.mediumColor}, ${variables.lightColor}, ${variables.mediumColor}, ${variables.darkColor});}
+    body {background: linear-gradient(145deg, ${variables.mediumColor}, ${variables.lightColor}, ${variables.mediumColor});}
 
     a {text-decoration: none;}
 
