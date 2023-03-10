@@ -32,9 +32,15 @@ export const Slider = () => {
 
     return(
         <Container>
-            <SetaVoltar href="#voltar" onClick={prevProject}> <img src={SetaEsquerda} alt="Seta de voltar" /> </SetaVoltar>
+            <SetaVoltar href="#voltar" onClick={prevProject}>
+                <img src={SetaEsquerda} alt="Seta de voltar" />
+            </SetaVoltar>
+
             <Project item={projectsList[item]} />
-            <SetaAvancar href="#avancar" onClick={skipProject}> <img src={SetaDireita} alt="Seta de avançar" /> </SetaAvancar>
+            
+            <SetaAvancar href="#avancar" onClick={skipProject}>
+                <img src={SetaDireita} alt="Seta de avançar" /> 
+            </SetaAvancar>
         </Container>
     )
 }
