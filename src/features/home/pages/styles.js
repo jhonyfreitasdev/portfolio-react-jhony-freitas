@@ -1,7 +1,10 @@
+import { variables } from '../../../constants/variables'
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background: linear-gradient(170deg, ${props => props.theme.color04}, ${props => props.theme.color03}, ${props => props.theme.color05}, ${props => props.theme.color03});
+    display: flex;
+    align-items: center;
+    background: linear-gradient(170deg, ${variables.darkColor}, ${variables.mediumColor}, ${variables.lightColor}, ${variables.mediumColor}, ${variables.darkColor});
     padding: 15px;
     max-width: 1440px;
     height: 100vh;

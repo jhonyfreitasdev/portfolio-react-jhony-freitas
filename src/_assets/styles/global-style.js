@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { variables } from "../../constants/variables"
 
 export const GlobalStyle = createGlobalStyle`
     *{
@@ -10,19 +11,11 @@ export const GlobalStyle = createGlobalStyle`
         outline: none;
     }
 
-    body{ 
-        background-color: #ffffff;
-    }
+    body {background: linear-gradient(265deg, ${variables.darkColor}, ${variables.mediumColor}, ${variables.lightColor}, ${variables.mediumColor}, ${variables.darkColor});}
 
-    a{
-        text-decoration: none;
-    }
+    a {text-decoration: none;}
 
-    img{
-        width: 100%;
-    }
+    img {width: 100%;}
 
-    ul{
-        list-style: none;
-    }
+    ul {list-style: none;}
 `

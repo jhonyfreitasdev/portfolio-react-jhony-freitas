@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import { variables } from "../../constants/variables";
 
 export const Nav = styled.nav`
     position: fixed;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to bottom, ${props => props.theme.color01}, ${props => props.theme.color03});
+    background-image: linear-gradient(to bottom, #00000010, #00000005, #ffffff10);
+    box-shadow: #00000020 0 5px 40px 10px;
     width: 100%;
     max-width: 1440px; 
     padding: 20px 0 15px 0;
@@ -16,9 +18,9 @@ export const Nav = styled.nav`
 
     ul{
         display: flex;
-        font-family: ${props => props.theme.primaryFont};
+        font-family: ${variables.primaryFont};
+        border: 1px solid ${variables.contrastColor};
         padding: 5px 10px;
-        border: 1px solid ${props => props.theme.color06};
         border-radius: 20px;
     }
 

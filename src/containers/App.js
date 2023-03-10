@@ -1,13 +1,16 @@
-import { ThemeProvider } from "styled-components";
-import { variables } from "../constants/variables"
+// import { ThemeProvider } from "styled-components";
+// import { theme } from "../constants/theme"
+import { Container } from "./styles";
 import { GlobalStyle } from "../_assets/styles/global-style";
 import { AppRoutes } from "./routes";
 
 export const App = () => {
   return (
-    <ThemeProvider theme={variables}>
-      <GlobalStyle />
-      <AppRoutes />
-    </ThemeProvider>
+    // <ThemeProvider theme={theme}>
+      <Container>
+        <GlobalStyle />
+        <AppRoutes />
+      </Container>
+    // </ThemeProvider>
   );
 }

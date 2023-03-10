@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    position: relative; 
-    max-width: 1440px;
-    height: 100vh;
+    box-shadow: #00000010 0 1px 15px 5px;
     margin: 0 auto;
-`
+    max-width: 1440px;
+`  
