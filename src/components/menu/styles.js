@@ -5,8 +5,8 @@ export const Nav = styled.nav`
     position: fixed;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to bottom, #00000010, #00000005, #ffffff10);
-    box-shadow: #00000020 0 5px 40px 10px;
+    background: linear-gradient(to bottom, ${variables.darkColor}, ${variables.mediumColor});
+    box-shadow: #ffffff10 0 2px 30px 2px;
     width: 100%;
     max-width: 1440px; 
     padding: 20px 0 15px 0;
