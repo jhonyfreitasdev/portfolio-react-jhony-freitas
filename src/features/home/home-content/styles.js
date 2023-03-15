@@ -3,6 +3,13 @@ import styled from 'styled-components';
 export const DivContainer = styled.div`
     display: flex;
     height: 90%;
+    width: 100%;
+`
+export const ContainerInfo = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
 `
 
 export const DivInfo = styled.div`
@@ -23,13 +30,9 @@ export const DivInfo = styled.div`
     h3{ font-size: 29px; }
 `
 
-export const Div = styled.div`
+export const ContainerImg = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
-`
-
-export const DivImg = styled.div`
-    width: 100%;
+    width: 60%;
 `

@@ -1,10 +1,10 @@
 import fundoPrincipal from "../../../_assets/images/fundo-principal.png";
-import { DivContainer, DivInfo, Div, DivImg } from "./styles"
+import { DivContainer, ContainerInfo, DivInfo, ContainerImg } from "./styles"
  
 export const HomeContent = () => {
     return (
         <DivContainer>
-            <Div>
+            <ContainerInfo>
                 <DivInfo>
                     <p>Olá!
                         <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" alt="Mão acenando"/>
@@ -13,12 +13,10 @@ export const HomeContent = () => {
                     <h1>Jhony Freitas</h1>
                     <h3>Desenvolvedor Front-end</h3>
                 </DivInfo>
-            </Div>
-            <Div>
-                <DivImg>
+            </ContainerInfo>
+            <ContainerImg>
                     <img src={fundoPrincipal} alt="Imagem animada de programador" />
-                </DivImg>
-            </Div>
+            </ContainerImg>
         </DivContainer>
     )
 }
