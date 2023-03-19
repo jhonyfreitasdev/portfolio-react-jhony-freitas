@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { variables } from "../../../constants/variables";
 
 export const Container = styled.div`
     position: absolute;
@@ -22,7 +23,9 @@ export const ButtonCv = styled.a`
     align-items: center;
     background-color: #ffffff;
     color: #000000;
+    font-family: ${variables.secondaryFont};
     width: 100px;
+    margin-top: 17px;
     padding: 5px;
     border-radius: 7px;
     
