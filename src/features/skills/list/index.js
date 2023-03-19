@@ -17,11 +17,11 @@ export const List = () => {
             </Git>
             <Html>
                 <i className="fa-brands fa-html5"></i>
-                <h4>HTML 5</h4>
+                <h4>HTML</h4>
             </Html>
             <Css>
                 <i className="fa-brands fa-css3-alt"></i>
-                <h4>CSS 3</h4>
+                <h4>CSS</h4>
             </Css>
             <Github>
                 <i className="fa-brands fa-github"></i>
