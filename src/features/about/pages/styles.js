@@ -5,9 +5,10 @@ import fotoPerfil from "../../../_assets/images/foto-03.jpg";
 export const Container = styled.div`
     position: relative;
     background: linear-gradient(170deg, ${variables.darkColor}, ${variables.mediumColor}, ${variables.lightColor}, ${variables.mediumColor}, ${variables.darkColor});
+    font-family: ${variables.secondaryFont};
     max-width: 1440px;
     height: 100vh;
-    padding: 75px 0 0 0;  
+    padding: 75px 0 0 0;
     margin: 0 auto;
 `
 

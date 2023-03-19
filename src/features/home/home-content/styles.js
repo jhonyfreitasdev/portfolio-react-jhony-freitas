@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { variables } from "../../../constants/variables"
 
 export const DivContainer = styled.div`
     display: flex;
@@ -20,6 +21,7 @@ export const DivInfo = styled.div`
     p{
         display: flex;
         align-items: center;
+        font-family: ${variables.secondaryFont};
         font-size: 22px;
     }
 
