@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { variables } from "../../../constants/variables"
-import fotoPerfil from "../../../_assets/images/foto-03.jpg";
+import fotoPerfil from "../../../_assets/images/foto-portfolio.jpg";
 
 export const Container = styled.div`
     position: relative;
