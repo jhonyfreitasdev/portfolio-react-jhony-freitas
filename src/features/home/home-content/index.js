@@ -15,7 +15,7 @@ export const HomeContent = () => {
                 </DivInfo>
             </ContainerInfo>
             <ContainerImg>
-                    <img src={fundoPrincipal} alt="Imagem animada de programador" />
+                <img src={fundoPrincipal} alt="Imagem animada de programador" />
             </ContainerImg>
         </DivContainer>
     )
