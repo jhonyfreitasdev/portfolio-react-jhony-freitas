@@ -5,19 +5,16 @@ export const Description = () => {
     return(
         <Container>
             <p>
-                Olá a todos! Me chamo Jhony Freitas, tenho 22 anos e sou um desenvolvedor front-end.
+                Olá a todos! Me chamo Jhony Freitas, tenho 23 anos e sou um desenvolvedor front-end.
             </p>
             <p>
-                Meu trabalho é mais especializado na criação de sites, desde a parte de montar a estrutura, organizar informações, estilizar o layout, e deixar ele bem funcional.
+                Sou desenvolvedor desde 2022 e, embora sinta que já percorri um longo percurso, ainda estou iniciando minha jornada na programação. A caminhada será longa e desafiadora, mas esse é um dos motivos que me incentivou a escolher essa área, pois tenho uma enorme sede por conhecimento e é empolgante saber que ela pode ser saciada nesse vasto mundo que é a tecnologia.
             </p>
             <p>
-                Quando escolhi a área de programação me falaram que eu precisaria gostar de resolver problemas, pois muitos viriam pela frente, e foi quando eu resolvi meu primeiro problema que descobri que era apaixonado por aquilo, a satisfação e o amor em codar não tem explicação.
+                Sou uma pessoa autodidata e estou sempre a procura de intensivos, cursos e documentações para me aprimorar cada vez mais, o que fez eu criar uma base sólida de conhecimento que possibilita que eu me aprofunde facilmente em novos frameworks e tecnologias mais tendentes.
             </p>
             <p>
-                Sei que como júnior não vou entrar na empresa sabendo tudo, mas estou disposto a perguntar e estudar o máximo possível para fazer a diferença. E também sei que serei útil e de grande valor, pois busco sempre ajudar no crescimento de onde eu trabalho, para que eu possa crescer também pessoalmente e profissionalmente.
-            </p>
-            <p>
-                Sou muito flexível em aprender tanto linguagens e softwares novos quanto para me adaptar a rotina de trabalho, além de ser proativo e ter facilidade em aprender.
+                Tenho uma boa comunicação, facilidade em aprender e em reconhecer que preciso de ajuda quando necessário. Sou flexível, estou disposto a aprender coisas novas que sejam importantes no cotidiano e, acima de tudo, busco sempre ser melhor hoje do que eu fui ontem, me dando a certeza de que serei de extrema importância em qualquer equipe.
             </p>
             
             <ButtonCv href={curriculo} download="Currículo Jhony Freitas" type="application/pdf" >
