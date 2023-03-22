@@ -6,7 +6,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     background: linear-gradient(170deg, ${variables.darkColor}, ${variables.mediumColor}, ${variables.lightColor}, ${variables.mediumColor}, ${variables.darkColor});
-    padding: 70px 15px 15px 15px;
+    padding: 80px 15px 0px 15px;
     max-width: 1440px;
     height: 100vh;
 `
