@@ -28,4 +28,8 @@ export const Nav = styled.nav`
         font-size: 20px;
         margin: 0 25px;
     }
+
+    a:hover{
+        color: #73e5ff;
+    }
 `
