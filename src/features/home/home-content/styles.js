@@ -3,7 +3,7 @@ import { variables } from "../../../constants/variables"
 
 export const DivContainer = styled.div`
     display: flex;
-    height: 90%;
+    height: 98%;
     width: 100%;
 `
 export const ContainerInfo = styled.div`
