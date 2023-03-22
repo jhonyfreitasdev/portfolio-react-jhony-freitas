@@ -43,16 +43,15 @@ export const GifContainer = styled.div`
     overflow: hidden;
     transition: ease-in-out 0.4s;
     border-radius: 7px;
-    margin: 95px auto 0 auto;
     width: 1190px;
-    height: 550px;
+    height: 530px;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-60%);
+    transform: translateX(-50%) translateY(-43%);
 
     &:hover {
         width: 1200px;
-        height: 560px;
+        height: 540px;
         ${Gif}{
             opacity: 0.2;
         }
