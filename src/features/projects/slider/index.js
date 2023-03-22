@@ -5,7 +5,7 @@ import SetaEsquerda from "../../../_assets/images/seta-esquerda.png";
 import SetaDireita from "../../../_assets/images/seta-direita.png";
 
 import { Project } from "../project";
-import { Container, SetaVoltar, SetaAvancar } from "./styles";
+import { SetaVoltar, SetaAvancar } from "./styles";
 
 export const Slider = () => {
     const [item, setItem] = useState(0)
@@ -31,7 +31,7 @@ export const Slider = () => {
     }
 
     return(
-        <Container>
+        <>
             <SetaVoltar type="button" onClick={prevProject}>
                 <img src={SetaEsquerda} alt="Seta de voltar" />
             </SetaVoltar>
@@ -41,6 +41,6 @@ export const Slider = () => {
             <SetaAvancar type="button" onClick={skipProject}>
                 <img src={SetaDireita} alt="Seta de avançar" /> 
             </SetaAvancar>
-        </Container>
+        </>
     )
 }
