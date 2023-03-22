@@ -29,8 +29,19 @@ export const ButtonCv = styled.a`
     margin-top: 17px;
     padding: 5px;
     border-radius: 7px;
+    transition: ease-in-out 0.5s;
     
     i{
         color: ${variables.contrastColor};
+        transition: ease-in-out 0.7s;
+    }
+
+    &:hover{
+        transform: translate(1px, -1px);
+        box-shadow: -3px 3px 15px -4px #ffffff44;
+    }
+
+    &:hover > i{
+        color: #ffffff;
     }
 `
