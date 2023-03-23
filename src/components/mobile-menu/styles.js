@@ -19,6 +19,9 @@ export const Container = styled.header`
     @media ${device.tabletS} {
         display: flex;
     }
+    @media ${device.mobileS} {
+        height: 76px;
+    }
 `
 
 export const MenuIcon = styled.button`

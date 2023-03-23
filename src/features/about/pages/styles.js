@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { device } from "../../../constants/device";
 import { variables } from "../../../constants/variables"
 import fotoPerfil from "../../../_assets/images/foto-portfolio.jpg";
 
@@ -18,7 +19,10 @@ export const Image = styled.div`
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    border-radius: 5px;
     width: 100%;
     height: 100%;
+
+    @media ${device.mobileL} {
+        position: fixed;
+    }
 `
