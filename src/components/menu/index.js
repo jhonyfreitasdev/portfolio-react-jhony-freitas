@@ -5,13 +5,11 @@ import "./styles.css"
 
 export const Menu = () => {
     const [pathActive, setPathActive] = useState("/")
-    let copyState = pathActive
     
     const changePath = () => {
+        let copyState = pathActive
         const path = window.location.pathname
         copyState = path
-        
-        console.log(path);
         setPathActive(copyState)
     }
     
