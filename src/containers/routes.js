@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Menu } from "../components/menu"
+import { MobileMenu } from "../components/mobile-menu"
 import { Home } from "../features/home/pages";
 import { About } from "../features/about/pages";
 import { Projects } from "../features/projects/pages";
@@ -9,6 +10,7 @@ import { Contact } from "../features/contact/pages";
 export const AppRoutes = () => (
     <BrowserRouter>
         <Menu />
+        <MobileMenu />
         <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/sobre" element={<About />} />
