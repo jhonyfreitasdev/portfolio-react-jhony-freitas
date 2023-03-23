@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../constants/device";
 import { variables } from "../../constants/variables";
 
 export const Nav = styled.nav`
@@ -16,13 +17,17 @@ export const Nav = styled.nav`
     z-index: 1;
     transform: translateX(-50%);
 
-    ul{
-        display: flex;
-        font-family: ${variables.primaryFont};
-        border: 1px solid ${variables.contrastColor};
-        padding: 5px 10px;
-        border-radius: 20px;
+    @media ${device.tabletS} {
+        display: none;
     }
+`
+
+export const List = styled.ul`
+    display: flex;
+    font-family: ${variables.primaryFont};
+    border: 1px solid ${variables.contrastColor};
+    padding: 5px 10px;
+    border-radius: 20px;
 
     li{
         font-size: 20px;

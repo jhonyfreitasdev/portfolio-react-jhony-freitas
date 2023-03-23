@@ -1,6 +1,6 @@
-import { Nav } from "./styles";
-import { Link } from "react-router-dom";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import { Nav, List } from "./styles";
 import "./styles.css"
 
 export const Menu = () => {
@@ -26,13 +26,13 @@ export const Menu = () => {
 
     return(
         <Nav>
-            <ul onClick={changePath}>
+            <List onClick={changePath}>
                 <CustomLink path={pathActive} to='/'>Inicio</CustomLink>
                 <CustomLink path={pathActive} to='/sobre'> Sobre </CustomLink>
                 <CustomLink path={pathActive} to='/projetos'> Projetos </CustomLink>
                 <CustomLink path={pathActive} to='/habilidades'> Habilidades </CustomLink>
                 <CustomLink path={pathActive} to='/contato'> Contato </CustomLink>
-            </ul>
+            </List>
         </Nav>
     )
 }
