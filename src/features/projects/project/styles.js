@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { device } from "../../../constants/device"
 
 export const Info = styled.div`
     position: absolute;
@@ -48,6 +49,30 @@ export const GifContainer = styled.div`
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-43%);
+
+    @media ${device.laptopL} {
+        width: 1000px;
+    }
+    @media ${device.laptop} {
+        width: 800px;
+        height: 480px;
+    }
+    @media ${device.tabletL} {
+        width: 590px;
+        height: 380px;
+    }
+    @media ${device.tabletS} {
+        width: 420px;
+        height: 270px;
+    }
+    @media ${device.mobileL} {
+        width: 270px;
+        height: 450px;
+    }
+    @media ${device.mobileS} {
+        width: 210px;
+        height: 370px;
+    }
 
     &:hover {
         width: 1200px;
