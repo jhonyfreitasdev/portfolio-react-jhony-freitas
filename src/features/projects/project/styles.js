@@ -67,11 +67,11 @@ export const GifContainer = styled.div`
     }
     @media ${device.mobileL} {
         width: 270px;
-        height: 450px;
+        height: 317px;
     }
     @media ${device.mobileS} {
         width: 210px;
-        height: 370px;
+        height: 246px;
     }
 
     &:hover {
