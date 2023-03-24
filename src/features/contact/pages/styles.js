@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../../constants/device";
 import { variables } from "../../../constants/variables"
 
 export const Container = styled.div`
@@ -15,8 +16,20 @@ export const Container = styled.div`
 
 export const H2 = styled.h2`
     font-size: 35px;
+    text-align: center;
+
+    @media ${device.mobileL} {
+        font-size: 30px;
+    }
 `
 
 export const P = styled.p`
     font-size: 23px;
+
+    @media ${device.mobileL} {
+        font-size: 21px;
+    }
+    @media ${device.mobileS} {
+        font-size: 19px;
+    }
 `
