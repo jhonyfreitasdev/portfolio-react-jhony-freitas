@@ -12,7 +12,12 @@ export const Info = styled.div`
     transform: translateX(-50%) translateY(-50%); 
 `
 
-export const Gif = styled.img`
+export const GifI = styled.img`
+    transition: ease-in-out 0.7s;
+    opacity: 0.7;
+`
+
+export const GifS = styled.source`
     transition: ease-in-out 0.7s;
     opacity: 0.7;
 `
@@ -77,7 +82,10 @@ export const GifContainer = styled.div`
     &:hover {
         width: 1200px;
         height: 540px;
-        ${Gif}{
+        ${GifI}{
+            opacity: 0.2;
+        }
+        ${GifS}{
             opacity: 0.2;
         }
         ${Info}{
