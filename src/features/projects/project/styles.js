@@ -28,7 +28,7 @@ export const Title = styled.h2`
 
 export const Description = styled.p`
     font-size: 22px;
-    margin: 40px 0 30px 0;
+    margin: 40px 0 20px 0;
 `
 
 export const Button = styled.a`
