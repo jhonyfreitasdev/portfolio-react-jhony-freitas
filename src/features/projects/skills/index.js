@@ -1,18 +1,20 @@
+import { List, ListItem, Html, Css, Javascript, React } from "./styles"
+
 const html = {
     id: 'HTML',
-    icon: <i className="fa-brands fa-html5"></i>
+    icon: <Html className="fa-brands fa-html5"></Html>
 }
 const css = {
     id: 'CSS',
-    icon: <i className="fa-brands fa-css3-alt"></i>
+    icon: <Css className="fa-brands fa-css3-alt"></Css>
 }
 const javascript = {
     id: 'JavaScript',
-    icon: <i className="fa-brands fa-js"></i>
+    icon: <Javascript className="fa-brands fa-js"></Javascript>
 }
 const react = {
     id: 'React',
-    icon: <i className="fa-brands fa-react"></i>
+    icon: <React className="fa-brands fa-react"></React>
 }
 
 export const Skills = ({ skill1, skill2, skill3, skill4 }) => {
@@ -32,16 +34,16 @@ export const Skills = ({ skill1, skill2, skill3, skill4 }) => {
     })
 
     return (
-        <ul>
+        <List>
             {
                 list.map((item, index) => {
                     return(
-                        <li key={index}>
+                        <ListItem key={index}>
                             {item.icon}
-                        </li>
+                        </ListItem>
                     )
                 })
             }
-        </ul>
+        </List>
     )
 }
