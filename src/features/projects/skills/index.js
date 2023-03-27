@@ -25,7 +25,6 @@ export const Skills = ({ skill1, skill2, skill3, skill4 }) => {
     images.map(image => {
         return (
             icons.forEach(icon => {
-                console.log(image.id);
                 if (image.id === icon) {
                     list = [image, ...list]
                 }
