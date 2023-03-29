@@ -1,4 +1,6 @@
-import { List, ListItem, Html, Css, Javascript, React } from "./styles"
+import { List, ListItem, Html, Css, Javascript, React, Styled } from "./styles"
+
+import StyledIcon from "../../../_assets/images/styled-icon.png" 
 
 const html = {
     id: 'HTML',
@@ -16,10 +18,14 @@ const react = {
     id: 'React',
     icon: <React className="fa-brands fa-react"></React>
 }
+const styled = {
+    id: 'Styled Components',
+    icon: <Styled> <img src={StyledIcon} alt="" /> </Styled>
+}
 
 export const Skills = ({ skill1, skill2, skill3, skill4 }) => {
     const icons = [skill1, skill2, skill3, skill4]
-    const images = [html, css, javascript, react]
+    const images = [html, css, javascript, react, styled]
     let list = []
 
     images.map(image => {
