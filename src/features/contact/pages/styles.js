@@ -21,10 +21,14 @@ export const H2 = styled.h2`
     @media ${device.mobileL} {
         font-size: 30px;
     }
+    @media ${device.mobileS} {
+        font-size: 25px;
+    }
 `
 
 export const P = styled.p`
     font-size: 23px;
+    text-align: center;
 
     @media ${device.mobileL} {
         font-size: 21px;

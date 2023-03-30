@@ -3,8 +3,12 @@ import { device } from "../../../constants/device";
 
 export const List = styled.ul`
     display: flex;
+    justify-content: center;
     margin: 70px 0 25px 0;
 
+    @media ${device.mobileS} {
+        flex-wrap: wrap;
+    }
 
     li{ 
         margin: 15px; 
