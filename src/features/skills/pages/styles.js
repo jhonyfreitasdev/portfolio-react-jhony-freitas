@@ -13,7 +13,10 @@ export const Container = styled.div`
 
     @media ${device.tablet} {
         height: auto;
-        padding: 110px 50px 15px 50px;
+        padding: 110px 120px 15px 120px;
+    }
+    @media ${device.tabletS} {
+        padding: 110px 55px 15px 55px;
     }
     @media ${device.mobileM} {
         padding: 110px 20px 15px 20px;
