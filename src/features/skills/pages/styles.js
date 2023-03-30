@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../../constants/device";
 import { variables } from "../../../constants/variables"
 
 export const Container = styled.div`
@@ -6,7 +7,15 @@ export const Container = styled.div`
     align-items: center;
     background: linear-gradient(170deg, ${variables.darkColor}, ${variables.mediumColor}, ${variables.lightColor}, ${variables.mediumColor}, ${variables.darkColor});
     font-family: ${variables.primaryFont};
-    padding: 75px 40px 15px 40px;    margin: 0 auto;
+    padding: 95px 40px 15px 40px;    margin: 0 auto;
     max-width: 1440px;
     height: 100vh;
+
+    @media ${device.tablet} {
+        height: auto;
+        padding: 110px 50px 15px 50px;
+    }
+    @media ${device.mobileM} {
+        padding: 110px 20px 15px 20px;
+    }
 `
