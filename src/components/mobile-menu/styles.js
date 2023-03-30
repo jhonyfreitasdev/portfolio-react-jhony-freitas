@@ -14,7 +14,7 @@ export const Container = styled.header`
     height: 85px;
     padding: 20px 35px;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     
     @media ${device.tabletS} {
         display: flex;

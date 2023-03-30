@@ -3,29 +3,23 @@ import { device } from "../../../constants/device";
 import { variables } from "../../../constants/variables";
 
 export const Container = styled.div`
-    position: absolute;
+    position: relative;
     background-color: #000000af;
-    width: 45%;
+    width: 55%;
     padding: 15px;
     border-radius: 5px;
-    top: 56%;
-    left: 25%;
-    transform: translateX(-50%) translateY(-50%);
 
-    @media ${device.tabletL} {
-        width: 60%;
-        top: 63%;
-        left: 50%;
+    @media ${device.laptopL} {
+        width: 70%;
     }
     @media ${device.tablet} {
         width: 80%;
     }
     @media ${device.tabletS} {
         width: 90%;
-        margin-top: 15px;
     }
-    @media ${device.mobileS} {
-        top: 61%;
+    @media ${device.mobileL} {
+        width: 100%;
     }
 
     p{

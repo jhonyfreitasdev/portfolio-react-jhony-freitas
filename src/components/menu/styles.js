@@ -14,7 +14,7 @@ export const Nav = styled.nav`
     margin: 0 auto;
     top: 0;
     left: 50%;
-    z-index: 1;
+    z-index: 2;
     transform: translateX(-50%);
 
     @media ${device.tabletS} {
