@@ -16,13 +16,12 @@ export const IconsList = styled.ul`
 
     li{
         text-align: center;
-        transition: ease-in-out 0.5s;
         width: 110px;
         min-height: 166px;
 
         @media ${device.mobileL} {
             width: 90px;
-            min-height: 150px;
+            min-height: 130px;
             font-size: 13px;
         }
     }
@@ -42,7 +41,8 @@ export const Card = styled.div`
     align-items: center;
     justify-content: space-between;
     background-color: #00000020;
-    transition: ease-in-out 0.5s ;
+    transition: width 0.5s;
+    cursor: pointer;
     border-radius: 10px;
     border: 1px solid #00000030;
     padding: 15px;
@@ -55,7 +55,10 @@ export const Card = styled.div`
 `
 
 export const Info = styled.div`
-
+    p{
+        display: none;
+        transition: ease-in-out 2s;
+    }
 `
 
 export const ContainerImg = styled.div`
