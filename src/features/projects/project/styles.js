@@ -60,10 +60,15 @@ export const Button = styled.a`
     color: #000000;
     font-size: 18px;
     text-align: center;
-    width: 120px;
+    transition: ease-in-out 0.5s;
+    border-radius: 7px;
     padding: 6px 0;
     margin: 0 15px;
-    border-radius: 7px;
+    width: 120px;
+
+    &:hover{
+        transform: translateY(-3px);
+    }
 
     @media ${device.laptopL} {
         width: 95px;
