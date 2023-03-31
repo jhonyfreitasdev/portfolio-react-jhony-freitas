@@ -61,12 +61,12 @@ export const ButtonCv = styled.a`
     
     i{
         color: ${variables.contrastColor};
-        transition: ease-in-out 0.7s;
+        transition: ease-in-out 0.5s;
     }
 
     &:hover{
-        transform: translate(-1px, -1px);
-        box-shadow: 3px 3px 15px -4px #ffffff1f;
+        transform: translateY(-1px);
+        box-shadow: 0 0 15px -4px #ffffff1f;
     }
 
     &:hover > i{
