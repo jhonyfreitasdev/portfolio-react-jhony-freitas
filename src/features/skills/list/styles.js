@@ -57,7 +57,6 @@ export const Card = styled.div`
 export const Info = styled.div`
     p{
         display: none;
-        transition: ease-in-out 2s;
     }
 `
 
