@@ -6,13 +6,11 @@ import mysql from "../../../_assets/images/mysql-icon.png"
 import { IconsList, Card, Info, ContainerImg, Javascript, React, Git, Html, Css, Github, Jest, Styled, MySQL } from "./styles"
 import "./styles.css"
 
-
 export const List = () => {
     const [selected, setSelected] = useState("")
 
     const selectCard = (e) => {
         setSelected(e.target.id)
-        console.log(selected);
     }
 
     const clearState = () => {
@@ -20,8 +18,6 @@ export const List = () => {
             setSelected("")
         }
     }
-
-    // Info sem propriedades de estilos
 
     return (
         
