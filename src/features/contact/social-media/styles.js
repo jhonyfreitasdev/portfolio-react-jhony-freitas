@@ -4,7 +4,7 @@ import { device } from "../../../constants/device";
 export const List = styled.ul`
     display: flex;
     justify-content: center;
-    margin: 70px 0 25px 0;
+    margin: 20px 0;
 
     @media ${device.mobileS} {
         flex-wrap: wrap;
@@ -19,8 +19,9 @@ export const List = styled.ul`
     }
         
     i{ 
-        font-size: 43px; 
+        font-size: 40px; 
         transition: 0.3s ease-in-out;
+        text-shadow: 5px 6px 18px #00000099;
 
         @media ${device.mobileL} {
             font-size: 35px;
