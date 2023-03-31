@@ -52,7 +52,7 @@ export const ButtonCv = styled.a`
     margin-top: 17px;
     padding: 5px;
     border-radius: 7px;
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.4s;
 
     @media ${device.tablet} {
         font-size: 15px;
@@ -65,8 +65,8 @@ export const ButtonCv = styled.a`
     }
 
     &:hover{
-        transform: translate(1px, -1px);
-        box-shadow: -3px 3px 15px -4px #ffffff44;
+        transform: translate(-1px, -1px);
+        box-shadow: 3px 3px 15px -4px #ffffff1f;
     }
 
     &:hover > i{
