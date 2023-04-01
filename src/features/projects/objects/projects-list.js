@@ -6,7 +6,7 @@ export const projectsList = [
         title: 'API do Github',
         imageS: images.github.small,
         image: images.github.normal,
-        desc: 'Nesse site eu faço um request da Api do GitHub, e renderizo informações do perfil solicitado, como repositórios, seguidores e eventos.',
+        desc: 'Nesse site eu faço um request da Api do GitHub e renderizo informações do perfil solicitado como repositórios, seguidores e eventos.',
         repoLink: 'https://github.com/jhonyfreitasdev/projeto-fetch-com-api-do-github',
         pageLink: 'https://jhonyfreitasdev.github.io/projeto-fetch-com-api-do-github/',
         skills: ['HTML', 'CSS', 'JavaScript']
@@ -26,7 +26,7 @@ export const projectsList = [
         title: 'Pokédex',
         imageS: images.pokedex.small,
         image: images.pokedex.normal,
-        desc: 'Uma Pokédex na versão de slider, que mostra uma lista de Pokémons.',
+        desc: 'Uma Pokédex na versão de slider que mostra uma lista de Pokémons.',
         repoLink: 'https://github.com/jhonyfreitasdev/projeto-pokemon-slider',
         pageLink: 'https://jhonyfreitasdev.github.io/projeto-pokemon-slider/',
         skills: ['HTML', 'CSS', 'JavaScript']
@@ -36,7 +36,7 @@ export const projectsList = [
         title: 'Project Interactive Card',
         imageS: images.interactiveCard.small,
         image: images.interactiveCard.normal,
-        desc: 'Um formulário que vai atualizando as informações preenchidas nele, em um cartão modelo ao lado automaticamente. E possui validação de campos numéricos e vazios.',
+        desc: 'Um formulário que vai atualizando as informações preenchidas nele em um cartão modelo ao lado, automaticamente. Possui também validação de campos numéricos e vazios.',
         repoLink: 'https://github.com/jhonyfreitasdev/project-interactive-card',
         pageLink: 'https://jhonyfreitasdev.github.io/project-interactive-card/',
         skills: ['HTML', 'CSS', 'JavaScript']
@@ -46,7 +46,7 @@ export const projectsList = [
         title: 'Gerador de conselhos',
         imageS: images.gerador.small,
         image: images.gerador.normal,
-        desc: 'Um gerador de conselhos aleatórios, sendo fornecidos através de uma API.',
+        desc: 'Um gerador de conselhos/frases aleatórios, que são fornecidos através de uma API.',
         repoLink: 'https://github.com/jhonyfreitasdev/projeto-gerador-de-conselhos',
         pageLink: 'https://jhonyfreitasdev.github.io/projeto-gerador-de-conselhos/',
         skills: ['HTML', 'CSS', 'JavaScript']
@@ -56,7 +56,7 @@ export const projectsList = [
         title: 'Fylo',
         imageS: images.fylo.small,
         image: images.fylo.normal,
-        desc: 'Desafio feito do Fontend Mentor de uma landing page criada com Flex e Grid, e utilizando javaScript para validação de email.',
+        desc: 'Desafio feito do Fontend Mentor de uma landing page criada com Flex e Grid, utilizando javaScript para validação de email.',
         repoLink: 'https://github.com/jhonyfreitasdev/projeto-fylo',
         pageLink: 'https://jhonyfreitasdev.github.io/projeto-fylo/',
         skills: ['HTML', 'CSS', 'JavaScript']
@@ -106,7 +106,7 @@ export const projectsList = [
         title: 'Cordel Moderno',
         imageS: images.cordel.small,
         image: images.cordel.normal,
-        desc: 'Uma poesia de Milton Duarte, construída em uma página, com efeito parallax.',
+        desc: 'Uma poesia de Milton Duarte, construída em uma página com efeito parallax.',
         repoLink: 'https://github.com/jhonyfreitasdev/projeto-cordel',
         pageLink: 'https://jhonyfreitasdev.github.io/projeto-cordel/',
         skills: ['HTML', 'CSS']
