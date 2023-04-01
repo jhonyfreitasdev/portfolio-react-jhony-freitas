@@ -20,12 +20,12 @@ export const Info = styled.div`
 
 export const GifI = styled.img`
     transition: ease-in-out 0.7s;
-    opacity: 0.7;
+    opacity: 0.9;
 `
 
 export const GifS = styled.source`
     transition: ease-in-out 0.7s;
-    opacity: 0.7;
+    opacity: 0.9;
 `
 
 export const Title = styled.h2`
@@ -97,22 +97,23 @@ export const GifContainer = styled.div`
 
     @media ${device.laptopL} {
         width: 1000px;
+        height: 480px;
     }
     @media ${device.laptop} {
         width: 800px;
-        height: 480px;
+        height: 390px;
     }
     @media ${device.tabletL} {
         width: 590px;
-        height: 380px;
+        height: 290px;
     }
     @media ${device.tabletS} {
         width: 420px;
-        height: 270px;
+        height: 205px;
     }
     @media ${device.mobileL} {
         width: 270px;
-        height: 317px;
+        height: 375px;
     }
     
     &:hover {
