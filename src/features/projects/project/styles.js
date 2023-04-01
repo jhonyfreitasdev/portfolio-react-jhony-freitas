@@ -122,10 +122,10 @@ export const GifContainer = styled.div`
             height: 540px;
         }
         ${GifI}{
-            opacity: 0.2;
+            opacity: 0.1;
         }
         ${GifS}{
-            opacity: 0.2;
+            opacity: 0.1;
         }
         ${Info}{
             display:flex;
