@@ -4,8 +4,8 @@ export const projectsList = [
     {
         id: '1',
         title: 'API do Github',
-        // imageS: images..small,
-        // image: images..normal,
+        imageS: images.github.small,
+        image: images.github.normal,
         desc: 'Nesse site eu faço um request da Api do GitHub, e renderizo informações do perfil solicitado, como repositórios, seguidores e eventos.',
         repoLink: 'https://github.com/jhonyfreitasdev/projeto-fetch-com-api-do-github',
         pageLink: 'https://jhonyfreitasdev.github.io/projeto-fetch-com-api-do-github/',
@@ -24,8 +24,8 @@ export const projectsList = [
     {
         id: '3',
         title: 'Pokédex',
-        // imageS: images..small,
-        // image: images..normal,
+        imageS: images.pokedex.small,
+        image: images.pokedex.normal,
         desc: 'Uma Pokédex na versão de slider, que mostra uma lista de Pokémons.',
         repoLink: 'https://github.com/jhonyfreitasdev/projeto-pokemon-slider',
         pageLink: 'https://jhonyfreitasdev.github.io/projeto-pokemon-slider/',
@@ -44,8 +44,8 @@ export const projectsList = [
     {
         id: '5',
         title: 'Gerador de conselhos',
-        // imageS: images..small,
-        // image: images..normal,
+        imageS: images.gerador.small,
+        image: images.gerador.normal,
         desc: 'Um gerador de conselhos aleatórios, sendo fornecidos através de uma API.',
         repoLink: 'https://github.com/jhonyfreitasdev/projeto-gerador-de-conselhos',
         pageLink: 'https://jhonyfreitasdev.github.io/projeto-gerador-de-conselhos/',
