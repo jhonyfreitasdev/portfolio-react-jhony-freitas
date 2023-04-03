@@ -16,6 +16,11 @@ export const Info = styled.div`
     @media ${device.laptopL} {
         width: 500px;
     }
+    @media ${device.mobileL} {
+        display: flex;
+        top: 143%;
+        padding: 10px;
+    }
 `
 
 export const GifI = styled.img`
@@ -32,6 +37,9 @@ export const Title = styled.h2`
     font-size: 37px;
 
     @media ${device.laptopL} {
+        font-size: 25px;
+    }
+    @media ${device.mobileL} {
         font-size: 25px;
     }
     @media ${device.mobileM} {
@@ -71,7 +79,7 @@ export const Button = styled.a`
     }
 
     @media ${device.laptopL} {
-        width: 95px;
+        width: 90px;
         font-size: 16px;
     }
     @media ${device.mobileM} {
@@ -114,6 +122,8 @@ export const GifContainer = styled.div`
     @media ${device.mobileL} {
         width: 270px;
         height: 375px;
+        top: 35%;
+        overflow: inherit;    
     }
     
     &:hover {

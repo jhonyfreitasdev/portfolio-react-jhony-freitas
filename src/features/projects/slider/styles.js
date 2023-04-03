@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../../../constants/device"
 
 export const SetaVoltar = styled.button`
     position: absolute;
@@ -9,6 +10,10 @@ export const SetaVoltar = styled.button`
     z-index: 1;
 
     img { width: 20px; }
+
+    @media ${device.mobileL} {
+        top: 38%;
+    }
 `
 
 export const SetaAvancar = styled.button`
@@ -20,4 +25,8 @@ export const SetaAvancar = styled.button`
     z-index: 1;
 
     img { width: 20px; }
+
+    @media ${device.mobileL} {
+        top: 38%;
+    }
 `
