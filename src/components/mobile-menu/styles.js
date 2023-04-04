@@ -35,7 +35,7 @@ export const Nav = styled.nav`
     background-image: linear-gradient(to right, ${variables.darkColor}, ${variables.lightColor});
     font-family: ${variables.primaryFont};
     width: 170px;
-    height: 745px;
+    height: 100vh;
     padding-top: 75px;
     top: 0;
     left: 0;
