@@ -29,7 +29,7 @@ export const DivInfo = styled.div`
 
     @media ${device.mobileL}{
         justify-content: flex-start;
-        padding-top: 175px;
+        padding-top: 195px;
     }
 
     p{
