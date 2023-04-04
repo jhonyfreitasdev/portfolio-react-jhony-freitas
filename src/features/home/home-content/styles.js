@@ -17,12 +17,20 @@ export const ContainerInfo = styled.div`
     @media ${device.tabletS} {
         width: 100%;
     }
+    @media ${device.mobileL} {
+        align-items: flex-start;
+    }
 `
 
 export const DivInfo = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @media ${device.mobileL}{
+        justify-content: flex-start;
+        padding-top: 150px;
+    }
 
     p{
         display: flex;
