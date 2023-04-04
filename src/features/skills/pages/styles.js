@@ -12,7 +12,7 @@ export const Container = styled.div`
     height: 100vh;
 
     @media ${device.tablet} {
-        height: auto;
+        height: 100%;
         padding: 110px 120px 15px 120px;
     }
     @media ${device.tabletS} {
