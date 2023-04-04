@@ -131,14 +131,16 @@ export const GifContainer = styled.div`
             width: 1200px;
             height: 540px;
         }
-        ${GifI}{
-            opacity: 0.1;
-        }
-        ${GifS}{
-            opacity: 0.1;
-        }
-        ${Info}{
-            display:flex;
+        @media (min-width: 1024px) {
+            ${GifI}{
+                opacity: 0.1;
+            }
+            ${GifS}{
+                opacity: 0.1;
+            }
+            ${Info}{
+                display:flex;
+            }
         }
     }
 `
