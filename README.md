@@ -1,9 +1,9 @@
 # Portfólio
  
 ## 🔗 Acesso ao projeto
-<a href="https://">Clique aqui para ir para a página</a>
+<a href="https://portfolio-jhony-freitas.vercel.app/">Clique aqui para ir para a página</a>
 
-[<img src="src/_assets/gifs/tela.gif">]("https://portfolio-jhony-freitas.vercel.app/")
+[<img src="src/_assets/gifs/tela.gif">](https://portfolio-jhony-freitas.vercel.app/)
 
 ## 🛠 Skills
 <div style="display: inline_block"><br>
