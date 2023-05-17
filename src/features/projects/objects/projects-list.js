@@ -3,6 +3,16 @@ import { images } from "./url-image"
 export const projectsList = [
     {
         id: '1',
+        title: 'Pokédex',
+        imageS: images.pokedex.small,
+        image: images.pokedex.normal,
+        desc: 'Uma Pokédex na versão de slider que mostra uma lista de Pokémons.',
+        repoLink: 'https://github.com/jhonyfreitasdev/pokedex',
+        pageLink: 'https://pokedex-alpha-mauve.vercel.app/',
+        skills: ['Jest', 'Styled Components', 'React', 'JavaScript']
+    },
+    {
+        id: '2',
         title: 'API do Github',
         imageS: images.github.small,
         image: images.github.normal,
@@ -12,7 +22,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS', 'JavaScript']
     },
     /*{
-        id: '2',
+        id: '3',
         title: 'Blog',
         // imageS: images..small,
         // image: images..normal,
@@ -21,16 +31,6 @@ export const projectsList = [
         pageLink: '',
         skills: ['React', 'JavaScript', 'Styled Components']
     },*/
-    {
-        id: '3',
-        title: 'Pokédex',
-        imageS: images.pokedex.small,
-        image: images.pokedex.normal,
-        desc: 'Uma Pokédex na versão de slider que mostra uma lista de Pokémons.',
-        repoLink: 'https://github.com/jhonyfreitasdev/projeto-pokemon-slider',
-        pageLink: 'https://jhonyfreitasdev.github.io/projeto-pokemon-slider/',
-        skills: ['HTML', 'CSS', 'JavaScript']
-    },
     {
         id: '4',
         title: 'Project Interactive Card',

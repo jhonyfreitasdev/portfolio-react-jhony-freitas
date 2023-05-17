@@ -13,7 +13,7 @@ export const Project = ({item}) => {
                 <Title>{ item.title }</Title>
                 <Description>{ item.desc }</Description>
 
-                <Skills skill1={item.skills[0]} skill2={item.skills[1]} skill3={item.skills[2]}/> 
+                <Skills skill1={item.skills[0]} skill2={item.skills[1]} skill3={item.skills[2]} skill4={item.skills[3]}/> 
                 
                 <div>
                     <Button href={item.repoLink} target="_blank" rel="noreferrer"> Repositório </Button>

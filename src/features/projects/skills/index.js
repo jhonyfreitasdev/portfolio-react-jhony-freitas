@@ -1,6 +1,7 @@
-import { List, ListItem, Html, Css, Javascript, React, Styled } from "./styles"
+import { List, ListItem, Html, Css, Javascript, React, Styled, Jest } from "./styles"
 
 import StyledIcon from "../../../_assets/images/styled-icon.png" 
+import JestIcon from "../../../_assets/images/jest-icon.png"
 
 const html = {
     id: 'HTML',
@@ -22,10 +23,14 @@ const styled = {
     id: 'Styled Components',
     icon: <Styled> <img src={StyledIcon} alt="" /> </Styled>
 }
+const jest ={
+    id: 'Jest',
+    icon: <Jest> <img src={JestIcon} alt="" /> </Jest>
+}
 
 export const Skills = ({ skill1, skill2, skill3, skill4 }) => {
     const icons = [skill1, skill2, skill3, skill4]
-    const images = [html, css, javascript, react, styled]
+    const images = [jest, css, html, styled, javascript, react]
     let list = []
 
     images.map(image => {
