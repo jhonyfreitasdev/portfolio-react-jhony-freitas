@@ -6,7 +6,7 @@ export const projectsList = [
         title: 'Pokédex',
         imageS: images.pokedex.small,
         image: images.pokedex.normal,
-        desc: 'Uma Pokédex na versão de slider que mostra uma lista de Pokémons.',
+        desc: 'Uma pokedex em forma de lista onde cada pokemon possui uma página única com suas habilidades e movimentos detalhados, criada em um layout responsivo com botão que altera o tema e um filtro para os tipos dos pokemons.',
         repoLink: 'https://github.com/jhonyfreitasdev/pokedex',
         pageLink: 'https://pokedex-alpha-mauve.vercel.app/',
         skills: ['Jest', 'Styled Components', 'React', 'JavaScript']
