@@ -1,3 +1,5 @@
+import lavandaMobile from "../../../_assets/gifs/projeto-lavandinha-bordados-mobile.gif"
+import lavanda from "../../../_assets/gifs/projeto-lavandinha-bordados.gif"
 import githubMobile from "../../../_assets/gifs/projeto-api-github-mobile.gif"
 import github from "../../../_assets/gifs/projeto-api-github.gif"
 import pokedexMobile from "../../../_assets/gifs/projeto-pokedex-mobile.gif"
@@ -20,6 +22,10 @@ import agenciaXPMobile from "../../../_assets/gifs/projeto-agencia-xpto-mobile.g
 import agenciaXP from "../../../_assets/gifs/projeto-agencia-xpto.gif";
  
 export const images = {
+    lavanda: {
+        small: lavandaMobile,
+        normal: lavanda
+    },
     github: {
         small: githubMobile,
         normal: github

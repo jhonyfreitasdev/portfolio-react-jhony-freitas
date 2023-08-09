@@ -13,6 +13,16 @@ export const projectsList = [
     },
     {
         id: '2',
+        title: 'Lavandinha Bordados',
+        imageS: images.lavanda.small,
+        image: images.lavanda.normal,
+        desc: 'Um catalogo de uma loja de bordados feito em uma Single Page Application com React e possui um carrinho de compras com integração com o WhatsApp.',
+        repoLink: '',
+        pageLink: 'https://lavandinha-bordados.vercel.app/',
+        skills: ['Styled Components', 'JavaScript', 'React']
+    },
+    {
+        id: '3',
         title: 'API do Github',
         imageS: images.github.small,
         image: images.github.normal,
@@ -22,7 +32,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS', 'JavaScript']
     },
     /*{
-        id: '3',
+        id: '4',
         title: 'Blog',
         // imageS: images..small,
         // image: images..normal,
@@ -32,7 +42,7 @@ export const projectsList = [
         skills: ['React', 'JavaScript', 'Styled Components']
     },*/
     {
-        id: '4',
+        id: '5',
         title: 'Project Interactive Card',
         imageS: images.interactiveCard.small,
         image: images.interactiveCard.normal,
@@ -42,7 +52,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS', 'JavaScript']
     },
     {
-        id: '5',
+        id: '6',
         title: 'Gerador de conselhos',
         imageS: images.gerador.small,
         image: images.gerador.normal,
@@ -52,7 +62,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS', 'JavaScript']
     },
     {
-        id: '6',
+        id: '7',
         title: 'Fylo',
         imageS: images.fylo.small,
         image: images.fylo.normal,
@@ -62,7 +72,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS', 'JavaScript']
     },
     /*{
-        id: '7',
+        id: '8',
         title: 'Contador de Pontos',
         imageS: images..small,
         image: images..normal,
@@ -72,7 +82,7 @@ export const projectsList = [
         skills: ['React', 'JavaScript', 'Styled Components']
     },*/
     {
-        id: '8',
+        id: '9',
         title: 'Pet Hope',
         imageS: images.petHope.small,
         image: images.petHope.normal,
@@ -82,7 +92,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS']
     },
     {
-        id: '9',
+        id: '10',
         title: 'Agência XPTO',
         imageS: images.agenciaXPTO.small,
         image: images.agenciaXPTO.normal,
@@ -92,7 +102,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS', 'JavaScript']
     },
     {
-        id: '10',
+        id: '11',
         title: 'Agência XYZ',
         imageS: images.agenciaXYZ.small,
         image: images.agenciaXYZ.normal,
@@ -102,7 +112,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS']
     },
     {
-        id: '11',
+        id: '12',
         title: 'Cordel Moderno',
         imageS: images.cordel.small,
         image: images.cordel.normal,
@@ -112,7 +122,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS']
     },
     {
-        id: '12',
+        id: '13',
         title: 'Code Café',
         imageS: images.codeCafe.small,
         image: images.codeCafe.normal,
