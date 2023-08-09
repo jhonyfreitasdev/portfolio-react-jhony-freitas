@@ -3,7 +3,10 @@ import { useState } from "react"
 import jest from "../../../_assets/images/jest-icon.png"
 import styled from "../../../_assets/images/styled-icon.png"
 import mysql from "../../../_assets/images/mysql-icon.png"
-import { IconsList, Card, Info, ContainerImg, Javascript, React, Git, Html, Css, Github, Jest, Styled, MySQL } from "./styles"
+import typescript from "../../../_assets/images/ts-icon.png"
+import redux from "../../../_assets/images/redux-icon.png"
+import sass from "../../../_assets/images/sass-icon.png"
+import { IconsList, Card, Info, ContainerImg, Javascript, React, Typescript, Redux, Sass, Git, Html, Css, Github, Jest, Styled, MySQL } from "./styles"
 import "./styles.css"
 
 export const List = () => {
@@ -20,17 +23,8 @@ export const List = () => {
     }
 
     return (
-        
+
         <IconsList onClick={clearState}>
-            <Javascript className={"javascript" === selected ? "active-card" : ""} onClick={selectCard}>  
-                <Card id="javascript">
-                    <i className="fa-brands fa-js"></i>
-                    <Info>
-                        <h4>JavaScript</h4>
-                        <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
-                    </Info>
-                </Card>
-            </Javascript>
             <React className={"react" === selected ? "active-card" : ""} onClick={selectCard}>
                 <Card id="react">
                     <i className="fa-brands fa-react"></i>
@@ -40,6 +34,37 @@ export const List = () => {
                     </Info>
                 </Card>
             </React>
+            <Javascript className={"javascript" === selected ? "active-card" : ""} onClick={selectCard}>
+                <Card id="javascript">
+                    <i className="fa-brands fa-js"></i>
+                    <Info>
+                        <h4>JavaScript</h4>
+                        <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
+                    </Info>
+                </Card>
+            </Javascript>
+            <Typescript className={"typescript" === selected ? "active-card" : ""} onClick={selectCard}>
+                <Card id="typescript">
+                    <ContainerImg>
+                        <img src={typescript} alt="Ícone do TS" />
+                    </ContainerImg>
+                    <Info>
+                        <h4>TypeScript</h4>
+                        <p> TypeScript é um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem.</p>
+                    </Info>
+                </Card>
+            </Typescript>
+            <Redux className={"redux" === selected ? "active-card" : ""} onClick={selectCard}>
+                <Card id="redux">
+                    <ContainerImg>
+                        <img src={redux} alt="Ícone do TS" />
+                    </ContainerImg>
+                    <Info>
+                        <h4>Redux</h4>
+                        <p> Redux é uma biblioteca JavaScript de código aberto para gerenciar o estado do aplicativo.</p>
+                    </Info>
+                </Card>
+            </Redux>
             <Git className={"git" === selected ? "active-card" : ""} onClick={selectCard}>
                 <Card id="git">
                     <i className="fa-brands fa-git-alt"></i>
@@ -67,6 +92,17 @@ export const List = () => {
                     </Info>
                 </Card >
             </Css>
+            <Sass className={"sass" === selected ? "active-card" : ""} onClick={selectCard}>
+                <Card id="sass">
+                    <ContainerImg>
+                        <img src={sass} alt="Ícone do TS" />
+                    </ContainerImg>
+                    <Info>
+                        <h4>Sass</h4>
+                        <p> Sass é uma linguagem de folhas de estilo concebida inicialmente por Hampton Catlin e desenvolvida por Natalie Weizenbaum.</p>
+                    </Info>
+                </Card>
+            </Sass>
             <Github className={"github" === selected ? "active-card" : ""} onClick={selectCard}>
                 <Card id="github">
                     <i className="fa-brands fa-github"></i>

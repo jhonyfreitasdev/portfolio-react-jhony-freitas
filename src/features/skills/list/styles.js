@@ -75,6 +75,19 @@ export const React = styled.li`
     i { color: #61DAFB; }
     h4 { text-shadow: 0 0 10px #61DAFB; }
 `
+export const Typescript = styled.li`
+    img { width: 90%; }
+    h4 { text-shadow: 0 0 10px #2F74C0; }
+`
+export const Redux = styled.li`
+    img { width: 90%; }
+    h4 { text-shadow: 0 0 10px #7248B6; }
+`
+export const Sass = styled.li`
+    img { width: 90%; }
+    h4 { text-shadow: 0 0 10px #C76394; }
+`
+
 export const Git = styled.li`
     i { color: #ff6600; }
     h4 { text-shadow: 0 0 10px #ff6600; }
