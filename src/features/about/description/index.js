@@ -1,4 +1,4 @@
-import curriculo from "../../../_assets/files/Jhony_Freitas-cv.pdf";
+import curriculo from "../../../_assets/files/JhonyFreitas_DevFrontEnd.pdf";
 import { Container, ButtonCv } from "./styles"
 
 export const Description = () => {
