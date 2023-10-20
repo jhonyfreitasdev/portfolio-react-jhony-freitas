@@ -49,6 +49,22 @@ export const Styled = styled.i`
         width: 26px;
     }
 `
+export const TypeScript = styled.i`
+    display: block;
+    width: 30px;
+
+    @media ${device.mobileM} {
+        width: 26px;
+    }
+`
+export const Sass = styled.i`
+    display: block;
+    width: 30px;
+
+    @media ${device.mobileM} {
+        width: 26px;
+    }
+`
 export const Jest = styled.i`
     display: block;
     width: 30px;
