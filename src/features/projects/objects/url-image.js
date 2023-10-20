@@ -1,3 +1,5 @@
+import ipTrackerMobile from "../../../_assets/gifs/ip-address-tracker-mobile.gif"
+import ipTracker from "../../../_assets/gifs/ip-address-tracker.gif"
 import lavandaMobile from "../../../_assets/gifs/projeto-lavandinha-bordados-mobile.gif"
 import lavanda from "../../../_assets/gifs/projeto-lavandinha-bordados.gif"
 import githubMobile from "../../../_assets/gifs/projeto-api-github-mobile.gif"
@@ -22,6 +24,10 @@ import agenciaXPMobile from "../../../_assets/gifs/projeto-agencia-xpto-mobile.g
 import agenciaXP from "../../../_assets/gifs/projeto-agencia-xpto.gif";
  
 export const images = {
+    ipTracker: {
+        small: ipTrackerMobile,
+        normal: ipTracker
+    },
     lavanda: {
         small: lavandaMobile,
         normal: lavanda

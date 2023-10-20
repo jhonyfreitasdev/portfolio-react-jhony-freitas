@@ -3,6 +3,16 @@ import { images } from "./url-image"
 export const projectsList = [
     {
         id: '1',
+        title: 'Ip Address Tracker',
+        imageS: images.ipTracker.small,
+        image: images.ipTracker.normal,
+        desc: 'Essa aplicação mostra a localização geográfica de endereços de IP ou domínios.',
+        repoLink: 'https://github.com/jhonyfreitasdev/ip-address-tracker',
+        pageLink: 'https://ip-address-tracker-jhonyfreitasdev.vercel.app/',
+        skills: ['Sass', 'React', 'TypeScript']
+    },
+    {
+        id: '2',
         title: 'Pokédex',
         imageS: images.pokedex.small,
         image: images.pokedex.normal,
@@ -12,7 +22,7 @@ export const projectsList = [
         skills: ['Jest', 'Styled Components', 'React', 'JavaScript']
     },
     {
-        id: '2',
+        id: '3',
         title: 'Lavandinha Bordados',
         imageS: images.lavanda.small,
         image: images.lavanda.normal,
@@ -22,7 +32,7 @@ export const projectsList = [
         skills: ['Styled Components', 'JavaScript', 'React']
     },
     {
-        id: '3',
+        id: '4',
         title: 'API do Github',
         imageS: images.github.small,
         image: images.github.normal,
@@ -32,7 +42,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS', 'JavaScript']
     },
     /*{
-        id: '4',
+        id: '5',
         title: 'Blog',
         // imageS: images..small,
         // image: images..normal,
@@ -42,7 +52,7 @@ export const projectsList = [
         skills: ['React', 'JavaScript', 'Styled Components']
     },*/
     {
-        id: '5',
+        id: '6',
         title: 'Project Interactive Card',
         imageS: images.interactiveCard.small,
         image: images.interactiveCard.normal,
@@ -52,7 +62,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS', 'JavaScript']
     },
     {
-        id: '6',
+        id: '7',
         title: 'Gerador de conselhos',
         imageS: images.gerador.small,
         image: images.gerador.normal,
@@ -62,7 +72,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS', 'JavaScript']
     },
     {
-        id: '7',
+        id: '8',
         title: 'Fylo',
         imageS: images.fylo.small,
         image: images.fylo.normal,
@@ -72,7 +82,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS', 'JavaScript']
     },
     /*{
-        id: '8',
+        id: '9',
         title: 'Contador de Pontos',
         imageS: images..small,
         image: images..normal,
@@ -82,7 +92,7 @@ export const projectsList = [
         skills: ['React', 'JavaScript', 'Styled Components']
     },*/
     {
-        id: '9',
+        id: '10',
         title: 'Pet Hope',
         imageS: images.petHope.small,
         image: images.petHope.normal,
@@ -92,7 +102,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS']
     },
     {
-        id: '10',
+        id: '11',
         title: 'Agência XPTO',
         imageS: images.agenciaXPTO.small,
         image: images.agenciaXPTO.normal,
@@ -102,7 +112,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS', 'JavaScript']
     },
     {
-        id: '11',
+        id: '12',
         title: 'Agência XYZ',
         imageS: images.agenciaXYZ.small,
         image: images.agenciaXYZ.normal,
@@ -112,7 +122,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS']
     },
     {
-        id: '12',
+        id: '13',
         title: 'Cordel Moderno',
         imageS: images.cordel.small,
         image: images.cordel.normal,
@@ -122,7 +132,7 @@ export const projectsList = [
         skills: ['HTML', 'CSS']
     },
     {
-        id: '13',
+        id: '14',
         title: 'Code Café',
         imageS: images.codeCafe.small,
         image: images.codeCafe.normal,
