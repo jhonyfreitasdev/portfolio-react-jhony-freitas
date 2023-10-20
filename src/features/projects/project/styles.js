@@ -18,9 +18,14 @@ export const Info = styled.div`
     }
     @media ${device.mobileL} {
         display: flex;
-        top: 143%;
+        top: 149%;
         padding: 10px;
     }
+`
+
+export const DivPicture = styled.div` 
+    overflow: hidden;
+    height: 117%;
 `
 
 export const GifI = styled.img`

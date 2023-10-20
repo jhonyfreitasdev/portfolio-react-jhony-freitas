@@ -1,14 +1,16 @@
 import { Skills } from "../skills"
-import { GifContainer, GifI, GifS, Info, Title, Description, Button } from "./styles"
+import { GifContainer, DivPicture, GifI, GifS, Info, Title, Description, Button } from "./styles"
 
 
 export const Project = ({ item }) => {
     return (
         <GifContainer>
-            <picture>
-                <GifS media="(max-width: 425px)" srcSet={item.imageS} />
-                <GifI src={item.image} alt="Imagem do projeto" />
-            </picture>
+            <DivPicture>
+                <picture>
+                    <GifS media="(max-width: 425px)" srcSet={item.imageS} />
+                    <GifI src={item.image} alt="Imagem do projeto" />
+                </picture>
+            </DivPicture>
             <Info>
                 <Title>{item.title}</Title>
                 <Description>{item.desc}</Description>
