@@ -37,6 +37,7 @@ export const DivInfo = styled.div`
         align-items: center;
         font-family: ${variables.secondaryFont};
         font-size: 22px;
+        text-shadow: 5px 5px 5px #000000;
 
         @media ${device.laptop} {
             font-size: 17px;
@@ -52,6 +53,7 @@ export const DivInfo = styled.div`
 
     h1{ 
         font-size: 65px;
+        text-shadow: 5px 5px 10px #000000;
         
         @media ${device.laptop} {
             font-size: 50px;
@@ -63,6 +65,7 @@ export const DivInfo = styled.div`
     
     h3{ 
         font-size: 29px; 
+        text-shadow: 5px 5px 10px #000000;
         
         @media ${device.laptop} {
             font-size: 24px;
@@ -78,8 +81,11 @@ export const ContainerImg = styled.div`
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 60%;
+    width: 40%;
 
+    img{
+        border-radius: 15px;
+    }
     
     @media ${device.laptop} {
         width: 55%;

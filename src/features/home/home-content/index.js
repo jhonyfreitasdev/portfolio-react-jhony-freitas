@@ -1,4 +1,4 @@
-import fundoPrincipal from "../../../_assets/images/fundo-principal.png";
+import fundoPrincipal from "../../../_assets/images/jhony-animated.png";
 import { DivContainer, ContainerInfo, DivInfo, ContainerImg } from "./styles"
  
 export const HomeContent = () => {
