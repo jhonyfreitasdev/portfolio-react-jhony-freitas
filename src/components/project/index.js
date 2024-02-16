@@ -1,0 +1,35 @@
+import { Skills } from "../skills"
+import { GifContainer, DivPicture, GifI, GifS, Info, Title, Description, Button } from "./styles"
+
+
+export const Project = ({ item }) => {
+    return (
+        <GifContainer>
+            <DivPicture>
+                <picture>
+                    <GifS media="(max-width: 425px)" srcSet={item.imageS} />
+                    <GifI src={item.image} alt="Imagem do projeto" />
+                </picture>
+            </DivPicture>
+            <Info>
+                <Title>{item.title}</Title>
+                <Description>{item.desc}</Description>
+
+                <Skills skill1={item.skills[0]} skill2={item.skills[1]} skill3={item.skills[2]} skill4={item.skills[3]} />
+
+                {item.repoLink !== '' ?
+                    <div>
+                        <Button href={item.repoLink} target="_blank" rel="noreferrer"> Repositório </Button>
+                        <Button href={item.pageLink} target="_blank" rel="noreferrer"> Página </Button>
+                    </div>
+                    :
+                    <div>
+
+                        <Button href={item.pageLink} target="_blank" rel="noreferrer"> Página </Button>
+                    </div>
+                }
+
+            </Info>
+        </GifContainer>
+    )
+}

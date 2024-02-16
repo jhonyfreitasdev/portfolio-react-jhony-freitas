@@ -1,0 +1,53 @@
+.mobile-menu-container
+    position: fixed
+    display: none
+    justify-content: space-between
+    align-items: center
+    width: 100%
+    height: 85px
+    padding: 20px 35px
+    top: 0
+    z-index: 2
+
+    .menu-icon
+        background-color: #00000000
+        width: 30px
+
+    .menu-navigation
+        position: absolute
+        display: block
+        font-family: $variables.primaryFont
+        width: 170px
+        height: 100vh
+        padding-top: 75px
+        top: 0
+        left: 0
+
+        .close-button
+            position: absolute
+            background-color: #00000000
+            width: 33px
+            top: 26px
+            left: 117px
+
+        .list
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+
+            li
+                font-size: 20px
+                margin: 2px 25px
+
+                a
+                    display: block
+
+            .active a
+                display: block
+                color: #daa520
+                border-bottom: 2px solid
+                height: 29px
+                
+    .logo
+        width: 50px
+

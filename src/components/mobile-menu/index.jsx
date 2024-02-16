@@ -5,7 +5,6 @@ import logo  from "../../_assets/images/logo.png"
 import closeButton from "../../_assets/images/btn-fechar.png"
 import menuIcon from "../../_assets/images/menu-icon.png"
 
-import { Container, MenuIcon, Nav, CloseButton, List, DivLogo } from "./styles";
 import "./styles.css"
 
 export const MobileMenu = () => {
@@ -46,32 +45,33 @@ export const MobileMenu = () => {
     }
 
     return(
-        <Container>
-            <MenuIcon onClick={openNavBar} type="button">
+        <header className="mobile-menu-container">
+            <button className="menu-icon" onClick={openNavBar} type="button">
                 <img src={menuIcon} alt="Botão do menu" />
-            </MenuIcon>
+            </button>
 
             {
                 statusNavBar === "close" ?
                 <></> :
-                <Nav>
-                    <CloseButton onClick={closeNavBar} type="button"> 
+                <nav className="menu-navigation">
+                    <button className="close-button" onClick={closeNavBar} type="button"> 
                         <img src={closeButton} alt="Botão de fechar o menu" />
-                    </CloseButton>
+                    </button>
 
-                    <List onClick={changePath}>
+                    <ul className="list" onClick={changePath}>
                         <CustomLink path={pathActive} to='/'>Inicio</CustomLink>
                         <CustomLink path={pathActive} to='/sobre'> Sobre </CustomLink>
                         <CustomLink path={pathActive} to='/projetos'> Projetos </CustomLink>
                         <CustomLink path={pathActive} to='/habilidades'> Habilidades </CustomLink>
                         <CustomLink path={pathActive} to='/contato'> Contato </CustomLink>
-                    </List>
-                </Nav>
+                    </ul>
+                </nav>
             }
-            <DivLogo>
+
+            <div className="logo">
                 <img src={logo} alt="Logo do site"/>
-            </DivLogo>
-        </Container>
+            </div>
+        </header>
 
     )
 }

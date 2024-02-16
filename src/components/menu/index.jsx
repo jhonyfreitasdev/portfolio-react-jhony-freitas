@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Nav, List } from "./styles";
-import "./styles.css"
+
+import "./index.sass"
 
 export const Menu = () => {
     const [pathActive, setPathActive] = useState("/")
@@ -23,14 +23,14 @@ export const Menu = () => {
     }
 
     return(
-        <Nav>
-            <List onClick={changePath}>
+        <nav className="navigation">
+            <ul className="list" onClick={changePath}>
                 <CustomLink path={pathActive} to='/'>Inicio</CustomLink>
                 <CustomLink path={pathActive} to='/sobre'> Sobre </CustomLink>
                 <CustomLink path={pathActive} to='/projetos'> Projetos </CustomLink>
                 <CustomLink path={pathActive} to='/habilidades'> Habilidades </CustomLink>
                 <CustomLink path={pathActive} to='/contato'> Contato </CustomLink>
-            </List>
-        </Nav>
+            </ul>
+        </nav>
     )
 }
