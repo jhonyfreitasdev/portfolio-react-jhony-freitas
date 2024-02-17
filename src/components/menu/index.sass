@@ -16,19 +16,23 @@
     .list
         display: flex
         font-family: variables.$primaryFont
-        border: 2px solid variables.$contrastColor
+        border: 2px solid variables.$darkColor
         padding: 5px 10px
         border-radius: 20px
 
         li
-            font-size: 22px
+            font-size: 23px
             margin: 0 25px
-            
+
+            a
+                color: #110f0f
+                transition: 0.3s ease-in-out
+
             a:hover
-                color: #daa520
-                
+                color: variables.$contrastColor
+
         .active a
             display: block
-            color: #daa520
+            color: variables.$contrastColor
             border-bottom: 2px solid
             height: 29px
