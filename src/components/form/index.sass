@@ -1,0 +1,40 @@
+@use '../../_assets/styles/variables'
+
+.form
+    display: flex
+    flex-direction: column
+    background: linear-gradient(5deg, variables.$darkColor, variables.$mediumColor, variables.$lightColor, variables.$mediumColor, variables.$darkColor)
+    box-shadow: 0 0 15px 0 #00000055
+    border-radius: 8px
+    padding: 10px
+    margin: 25px 0
+    width: 40%
+
+    .input
+        background-color: #e3e3e3
+        color: #000000
+        font-family: variables.$secondaryFont
+        border-radius: 8px
+        margin: 10px
+        padding: 8px
+
+    .textarea    
+        background-color: #e3e3e3
+        color: #000000
+        font-family: variables.$secondaryFont
+        border-radius: 8px
+        margin: 10px
+        padding: 8px
+        height: 70px
+
+    .btn-submit        
+        align-self: center
+        background: linear-gradient(175deg, variables.$darkColor, variables.$mediumColor, variables.$lightColor, variables.$mediumColor, variables.$darkColor)
+        color: variables.$contrastColor
+        font-family: variables.$primaryFont
+        font-size: 16px
+        cursor: pointer
+        border-radius: 8px
+        margin: 10px
+        padding: 7px
+        width: 120px

@@ -1,7 +1,7 @@
-import { useState } from "react"
-import emailjs from "@emailjs/browser"
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 
-import { FormContainer, Input, TextArea, Button } from "./styles"
+import "./index.sass";
  
 export const Form = () => {
     const [name, setName] = useState('')
@@ -37,30 +37,30 @@ export const Form = () => {
 
     return(
         <>
-            <FormContainer onSubmit={sendEmail}> 
-                <Input 
+            <from onSubmit={sendEmail} className="form"> 
+                <input className="input" 
                     type="text"
                     placeholder="Digite seu nome"
                     onChange={e => setName(e.target.value)}
                     value={name}
                 />
                 
-                <Input 
+                <input className="input" 
                     type="text"
                     placeholder="Digite seu email"
                     onChange={e => setEmail(e.target.value)}
                     value={email}
                 />
 
-                <TextArea 
+                <textarea className="textarea"
                     type="text"
                     placeholder="Digite sua mensagem..."
                     onChange={e => setMessage(e.target.value)}
                     value={message}
                 />
 
-                <Button type="submit" value="Enviar" />
-            </FormContainer>
+                <input className="btn-submit" type="submit" value="Enviar" />
+            </from>
         </>
     )
 }

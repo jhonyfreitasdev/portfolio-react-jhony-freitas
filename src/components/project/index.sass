@@ -1,0 +1,58 @@
+.project-container
+    position: absolute
+    background-color: #000000
+    overflow: hidden
+    transition: ease-in-out 0.4s
+    border-radius: 7px
+    width: 1190px
+    height: 530px
+    top: 50%
+    left: 50%
+    transform: translateX(-50%) translateY(-43%)
+
+    .picture-container
+        overflow: hidden
+        height: 117%
+
+        .image-gif
+            transition: ease-in-out 0.7s
+            opacity: 0.9
+
+        .source-gif
+            transition: ease-in-out 0.7s
+            opacity: 0.9
+
+    .info
+        position: absolute
+        display: none
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        text-align: center
+        max-width: 97%
+        top: 50%
+        left: 50%
+        transform: translateX(-50%) translateY(-50%)
+        
+        .title
+            font-size: 37px
+
+        .description 
+            text-align: center
+            font-size: 22px
+            margin: 40px 0 20px 0
+
+        .button
+            display: inline-block
+            background-color: #ffffff
+            color: #000000
+            font-size: 18px
+            text-align: center
+            transition: ease-in-out 0.5s
+            border-radius: 7px
+            padding: 6px 0
+            margin: 0 15px
+            width: 120px
+
+            &:hover
+                transform: translateY(-3px)

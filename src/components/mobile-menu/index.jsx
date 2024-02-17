@@ -5,7 +5,7 @@ import logo  from "../../_assets/images/logo.png"
 import closeButton from "../../_assets/images/btn-fechar.png"
 import menuIcon from "../../_assets/images/menu-icon.png"
 
-import "./styles.css"
+import "./index.sass";
 
 export const MobileMenu = () => {
     //Open and close Nav Bar

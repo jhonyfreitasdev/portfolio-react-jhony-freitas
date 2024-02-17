@@ -1,9 +1,9 @@
-import curriculo from "../../../_assets/files/JhonyFreitas_DevFrontEnd.pdf";
-import { Container, ButtonCv } from "./styles"
+import curriculo from "../../_assets/files/JhonyFreitas_DevFrontEnd.pdf";
+import './index.sass';
 
 export const Description = () => {
     return(
-        <Container>
+        <div className="description-container">
             <p>
                 Olá a todos! Me chamo Jhony Freitas, tenho 23 anos e sou um desenvolvedor front-end.
             </p>
@@ -17,10 +17,10 @@ export const Description = () => {
                 Tenho uma boa comunicação, facilidade em aprender e em reconhecer que preciso de ajuda quando necessário. Sou flexível, estou disposto a aprender coisas novas que sejam importantes no cotidiano e, acima de tudo, busco sempre ser melhor hoje do que eu fui ontem, me dando a certeza de que serei de extrema importância em qualquer equipe.
             </p>
             
-            <ButtonCv href={curriculo} download="Currículo Jhony Freitas" type="application/pdf" >
+            <button className="button-cv" href={curriculo} download="Currículo Jhony Freitas" type="application/pdf" >
                 Currículo
                 <i className="fa-regular fa-circle-down"></i>
-            </ButtonCv>
-        </Container>
+            </button>
+        </div>
     )
 }
