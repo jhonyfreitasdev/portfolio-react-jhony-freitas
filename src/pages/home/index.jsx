@@ -1,14 +1,11 @@
 import { HomeContent } from '../../components/home-content';
-import "./index.sass"
+import "./index.sass";
 
 export const Home = () => {
     return (
-        <div class="container">
-            <div className='blur-background'></div>
-
-            <div className='container-home'>
-                <HomeContent />
-            </div>
+        <div class="home-container">
+            <div className='blur-overlay'></div>
+            <HomeContent />
         </div>
     )
 }
