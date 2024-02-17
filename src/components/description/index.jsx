@@ -2,25 +2,26 @@ import curriculo from "../../_assets/files/JhonyFreitas_DevFrontEnd.pdf";
 import './index.sass';
 
 export const Description = () => {
-    return(
+    return (
         <div className="description-container">
             <p>
-                Olá a todos! Me chamo Jhony Freitas, tenho 23 anos e sou um desenvolvedor front-end.
+            Olá a todos! Meu nome é Jhony Freitas, tenho 23 anos e atuo como desenvolvedor front-end.
             </p>
             <p>
-                Sou desenvolvedor desde 2022 e, embora sinta que já percorri um longo percurso, ainda estou iniciando minha jornada na programação. A caminhada será longa e desafiadora, mas esse é um dos motivos que me incentivou a escolher essa área, pois tenho uma enorme sede por conhecimento e é empolgante saber que ela pode ser saciada nesse vasto mundo que é a tecnologia.
+                Estudo programação desde 2022 e desde então atuo como freelancer na área, o que me foi útil para ganhar
+                experiência e conhecimento suficiente para desenvolver projetos bem estruturados e solucionar problemas complexos.
             </p>
             <p>
-                Sou uma pessoa autodidata e estou sempre a procura de intensivos, cursos e documentações para me aprimorar cada vez mais, o que fez eu criar uma base sólida de conhecimento que possibilita que eu me aprofunde facilmente em novos frameworks e tecnologias mais tendentes.
+                Autodidata por natureza, estou incessantemente em busca de conhecimento para aprimorar minhas habilidades. Essa abordagem resultou na construção de uma base sólida de conhecimento, capacitando-me a explorar com facilidade novos frameworks e tecnologias emergentes.
             </p>
             <p>
-                Tenho uma boa comunicação, facilidade em aprender e em reconhecer que preciso de ajuda quando necessário. Sou flexível, estou disposto a aprender coisas novas que sejam importantes no cotidiano e, acima de tudo, busco sempre ser melhor hoje do que eu fui ontem, me dando a certeza de que serei de extrema importância em qualquer equipe.
+                Minha comunicação eficaz, habilidade inata para aprender e prontidão em reconhecer a necessidade de apoio quando preciso são aspectos que valorizo. Sou flexível, aberto a assimilar novos conceitos relevantes para o dia a dia e, acima de tudo, busco ser melhor a cada dia, provando que posso ser uma peça fundamental em qualquer equipe.
             </p>
-            
-            <button className="button-cv" href={curriculo} download="Currículo Jhony Freitas" type="application/pdf" >
+
+            <a className="button-cv" href={curriculo} download="JhonyFreitas_DevFrontEnd" type="application/pdf" >
                 Currículo
                 <i className="fa-regular fa-circle-down"></i>
-            </button>
+            </a>
         </div>
     )
 }
