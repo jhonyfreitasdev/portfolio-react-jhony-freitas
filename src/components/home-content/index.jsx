@@ -1,4 +1,5 @@
 import fundoPrincipal from "../../_assets/images/jhony-animated.png";
+import gifNerd from "../../_assets/images/gifs-emoji-nerd.gif";
 import "./index.sass";
 
 export const HomeContent = () => {
@@ -8,7 +9,7 @@ export const HomeContent = () => {
                 <div className="info-div">
                     <p>
                         Olá!
-                        <img src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif" alt="Mão acenando" />
+                        <img src={gifNerd} alt="Mão acenando" />
                         eu sou
                     </p>
 

@@ -2,8 +2,9 @@
 
 .home-content-container
     display: flex
-    justify-content: center
-    height: 98%
+    justify-content: space-around
+    align-items: center
+    height: 89vh
     width: 100%
 
     .info-container
@@ -16,34 +17,38 @@
             display: flex
             flex-direction: column
             justify-content: center
-
+            color: #000000
+            
             p
                 display: flex
-                color: #000000
                 align-items: center
+                text-shadow: 0 0 3px #000000
+                color: #240a51
                 font-family: variables.$secondaryFont
-                font-size: 18px
+                font-size: 20px
                 font-weight: 500
 
             img
-                width: 35px
+                width: 50px
 
-            h1 
-                font-size: 65px
-                text-shadow: 4px 7px 7px #00000060
-                color: #000000
+            h1
+                font-size: 61px
+                background: linear-gradient(3deg,#6376e4, #0d0222)
+                -webkit-background-clip: text
+                color: transparent
+
+                // background: linear-gradient(to bottom,#0bf7ff, #29262c)
 
             h3
-                    font-size: 29px
-                    text-shadow: 3px 6px 4px #00000030
-                    color: #000000
+                font-size: 29px
+                color: #240a51
 
     .image-container
         display: flex
         justify-content: center
         align-items: center
         overflow: hidden
-        width: 40%
+        width: 35%
 
         img
             border-radius: 15px
