@@ -28,7 +28,6 @@ export const Project = ({ item }) => {
                         <a className="button" href={item.pageLink} target="_blank" rel="noreferrer"> Página </a>
                     </div>
                 }
-
             </div>
         </div>
     )

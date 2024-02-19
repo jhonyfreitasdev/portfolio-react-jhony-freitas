@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { projectsList } from "../../objects/projects-list"
 import { Project } from "../project";
+
 import SetaEsquerda from "../../_assets/images/seta-esquerda.png";
 import SetaDireita from "../../_assets/images/seta-direita.png";
 import "./index.sass";
@@ -29,16 +30,18 @@ export const Slider = () => {
     }
 
     return(
-        <>
+        <div className="slider">
             <button type="button" className="return-button" onClick={prevProject}>
                 <img src={SetaEsquerda} alt="Seta de voltar" />
             </button>
 
-            <Project item={projectsList[item]} />
+            <div className="project">
+                <Project item={projectsList[item]} />
+            </div>
             
             <button type="button" className="advanced-button" onClick={skipProject}>
                 <img src={SetaDireita} alt="Seta de avançar" /> 
             </button>
-        </>
+        </div>
     )
 }

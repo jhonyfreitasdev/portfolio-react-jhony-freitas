@@ -37,7 +37,7 @@ export const Form = () => {
 
     return(
         <>
-            <from onSubmit={sendEmail} className="form"> 
+            <form onSubmit={sendEmail} className="form"> 
                 <input className="input" 
                     type="text"
                     placeholder="Digite seu nome"
@@ -60,7 +60,7 @@ export const Form = () => {
                 />
 
                 <input className="btn-submit" type="submit" value="Enviar" />
-            </from>
+            </form>
         </>
     )
 }

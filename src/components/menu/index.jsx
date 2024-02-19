@@ -23,14 +23,16 @@ export const Menu = () => {
     }
 
     return(
-        <nav className="navigation">
-            <ul className="list" onClick={changePath}>
-                <CustomLink path={pathActive} to='/'>Inicio</CustomLink>
-                <CustomLink path={pathActive} to='/sobre'> Sobre </CustomLink>
-                <CustomLink path={pathActive} to='/projetos'> Projetos </CustomLink>
-                <CustomLink path={pathActive} to='/habilidades'> Habilidades </CustomLink>
-                <CustomLink path={pathActive} to='/contato'> Contato </CustomLink>
-            </ul>
-        </nav>
+        <header>
+            <nav className="navigation">
+                <ul className="list" onClick={changePath}>
+                    <CustomLink path={pathActive} to='/'>Inicio</CustomLink>
+                    <CustomLink path={pathActive} to='/sobre'> Sobre </CustomLink>
+                    <CustomLink path={pathActive} to='/projetos'> Projetos </CustomLink>
+                    <CustomLink path={pathActive} to='/habilidades'> Habilidades </CustomLink>
+                    <CustomLink path={pathActive} to='/contato'> Contato </CustomLink>
+                </ul>
+            </nav>
+        </header>
     )
 }
