@@ -1,5 +1,7 @@
+@import '../../_assets/styles/extends'
+    
 .projects-container
-    position: relative
-    max-width: 1440px
-    height: 100vh
-    margin: 0 auto
+    @extend %background-container 
+
+    .blur-overlay
+        @extend %blur-background
