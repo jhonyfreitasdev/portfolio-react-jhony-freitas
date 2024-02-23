@@ -2,6 +2,7 @@ import StyledIcon from "../../_assets/images/styled-icon.png";
 import JestIcon from "../../_assets/images/jest-icon.png";
 import TypeScriptIcon from "../../_assets/images/ts-icon.png";
 import SassIcon from "../../_assets/images/sass-icon.png";
+import "./index.sass"
 
 const html = {
     id: 'HTML',
@@ -17,7 +18,7 @@ const javascript = {
 }
 const typescript ={
     id: 'TypeScript',
-    icon: <i className="typescript"> <img src={TypeScriptIcon} alt="" /> </i>
+    icon: <i className="typescript"> <img src={TypeScriptIcon} alt=""/> </i>
 }
 const react = {
     id: 'React',
