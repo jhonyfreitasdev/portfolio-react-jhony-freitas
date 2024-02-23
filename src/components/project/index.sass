@@ -13,19 +13,24 @@
         .image-gif
             transition: ease-in-out 0.7s
             opacity: 0.9
+            width: 100%
 
         .source-gif
             transition: ease-in-out 0.7s
             opacity: 0.9
+            width: 100%
 
     .info
         position: absolute
-        display: none
+        display: flex
         flex-direction: column
         justify-content: center
         align-items: center
+        background-color: #000000d6
         text-align: center
-        max-width: 100%
+        opacity: 0
+        transition: opacity ease-in-out .6s
+        width: 100%
         height: 100%
         top: 0
         left: 0
@@ -36,6 +41,7 @@
         .description 
             text-align: center
             font-size: 22px
+            width: 80%
             margin: 40px 0 20px 0
 
         .button
@@ -54,5 +60,4 @@
                 transform: translateY(-3px)
     
     &:hover > .info
-        display: flex
-        background-color: #000000
+        opacity: 1
