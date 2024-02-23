@@ -1,12 +1,10 @@
-import { useState } from "react"
-
-import jest from "../../_assets/images/jest-icon.png"
-import styled from "../../_assets/images/styled-icon.png"
-import mysql from "../../_assets/images/mysql-icon.png"
-import typescript from "../../_assets/images/ts-icon.png"
-import redux from "../../_assets/images/redux-icon.png"
-import sass from "../../_assets/images/sass-icon.png"
-
+import { useState } from "react";
+import jest from "../../_assets/images/jest-icon.png";
+import styled from "../../_assets/images/styled-icon.png";
+import mysql from "../../_assets/images/mysql-icon.png";
+import typescript from "../../_assets/images/ts-icon.png";
+import redux from "../../_assets/images/redux-icon.png";
+import sass from "../../_assets/images/sass-icon.png";
 import "./index.sass";
 
 export const List = () => {
@@ -23,7 +21,6 @@ export const List = () => {
     }
 
     return (
-
         <ul className="icon-list" onClick={clearState}>
             <li className={"react" === selected ? "react active-card" : "react"} onClick={selectCard}>
                 <div className="card" id="react">
@@ -79,7 +76,7 @@ export const List = () => {
                 </div>
             </li>
 
-            <html className={"html" === selected ? "html active-card" : "html"} onClick={selectCard}>
+            <li className={"html" === selected ? "html active-card" : "html"} onClick={selectCard}>
                 <div className="card" id="html">
                     <i className="fa-brands fa-html5"></i>
                     <div className="info">
@@ -87,7 +84,7 @@ export const List = () => {
                         <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p>
                     </div>
                 </div>
-            </html>
+            </li>
 
             <li className={"css" === selected ? "css active-card" : "css"} onClick={selectCard}>
                 <div className="card" id="css">
