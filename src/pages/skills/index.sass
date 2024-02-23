@@ -1,11 +1,7 @@
-@use '../../_assets/styles/variables'
+@import '../../_assets/styles/extends' 
 
 .skills-container
-    display: flex
-    align-items: center
-    background: linear-gradient(170deg, variables.$darkColor, variables.$mediumColor, variables.$lightColor, variables.$mediumColor, variables.$darkColor)
-    font-family: variables.$primaryFont
-    padding: 95px 40px 15px 40px 
-    margin: 0 auto
-    max-width: 1440px
-    height: 100vh
+    @extend %background-container
+
+    .blur-overlay
+        @extend %blur-background
