@@ -1,12 +1,11 @@
+@import '../../_assets/styles/extends'
+
 .contact-container
-    display: flex
+    @extend %background-container
     flex-direction: column
-    justify-content: center
-    align-items: center
-    max-width: 1440px
-    height: 100vh
-    padding: 110px 15px 15px 15px
-    margin: 0 auto
+
+    .blur-overlay
+        @extend %blur-background
 
     .title
         font-size: 35px
