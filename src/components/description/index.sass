@@ -1,8 +1,15 @@
 @use '../../_assets/styles/variables'
 
 .description-container
-    position: relative
+    display: flex 
+    flex-direction: column 
+    justify-content: space-between    
     background-color: #000000d5
+    overflow: auto
+    scrollbar-width: none
+    overscroll-behavior: none
+    -ms-overflow-style: none
+    scrollbar-width: none
     width: 36%
     height: 75%
     padding: 16px
@@ -15,12 +22,10 @@
         text-indent: 22px
 
     .button-cv
-        position: absolute
-        bottom: 15px
-        right: 15px
         display: flex
         justify-content: space-between
         align-items: center
+        align-self: flex-end
         background: linear-gradient(180deg, variables.$darkColor, variables.$mediumColor, variables.$darkColor)
         color: #fff
         font-family: variables.$primaryFont
