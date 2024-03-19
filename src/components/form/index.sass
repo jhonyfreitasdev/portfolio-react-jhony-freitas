@@ -3,7 +3,7 @@
 .form
     display: flex
     flex-direction: column
-    background: linear-gradient(5deg, variables.$darkColor, variables.$mediumColor, variables.$lightColor, variables.$mediumColor, variables.$darkColor)
+    background: linear-gradient(0deg, variables.$darkColor, variables.$mediumColor, variables.$mediumColor, variables.$darkColor)
     box-shadow: 0 0 15px 0 #00000055
     border-radius: 8px
     padding: 10px
@@ -30,7 +30,8 @@
 
     .btn-submit        
         align-self: center
-        background: linear-gradient(180deg, variables.$mediumColor, variables.$darkColor)
+        background-color: variables.$mediumColor
+        box-shadow: 1px 1px 5px 2px #00000039
         color: #fff
         font-family: variables.$primaryFont
         font-size: 16px
