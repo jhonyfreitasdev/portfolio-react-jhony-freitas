@@ -15,14 +15,14 @@
 
     .list
         display: flex
+        gap: 23px
         font-family: variables.$primaryFont
         border: 2px solid variables.$contrastColor
-        padding: 5px 10px
+        padding: 5px 25px
         border-radius: 20px
 
         li
             font-size: 23px
-            margin: 0 25px
 
             a
                 color: #fff
@@ -36,3 +36,8 @@
             color: variables.$contrastColor
             border-bottom: 2px solid
             height: 29px
+
+@media (max-width: 645px)
+    .navigation
+        display: none
+

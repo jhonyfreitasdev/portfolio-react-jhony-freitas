@@ -9,30 +9,16 @@ import "./index.sass";
 
 export const MobileMenu = () => {
     //Open and close Nav Bar
-    const [statusNavBar, setStatusNavBar] = useState("close")
+    const [statusNavBar, setStatusNavBar] = useState(false)
     
-    const openNavBar = () => {
-        let copyStatusState = statusNavBar    
-        copyStatusState = "open"
-        setStatusNavBar(copyStatusState)
-    }
-
-    const closeNavBar = () => {
-        let copyStatusState = statusNavBar    
-        copyStatusState = "close"
-        setStatusNavBar(copyStatusState)
-    }
+    const handleNavBar = () => { setStatusNavBar(!statusNavBar); };
 
     //Use url path to mark page you are on 
     const [pathActive, setPathActive] = useState("/")
     
     const changePath = () => {
-        let copyPathState = pathActive
         const path = window.location.pathname
-        copyPathState = path
-        setPathActive(copyPathState)
-
-        closeNavBar()
+        setPathActive(path)
     }
     
     const CustomLink = (props) => {
@@ -41,20 +27,19 @@ export const MobileMenu = () => {
                 <Link to={props.to}> {props.children} </Link>
             </li>
         )
-        
     }
 
     return(
         <header className="mobile-menu-container">
-            <button className="menu-icon" onClick={openNavBar} type="button">
-                <img src={menuIcon} alt="Botão do menu" />
-            </button>
-
-            {
-                statusNavBar === "close" ?
-                <></> :
+            {!statusNavBar && (
+                <button className="menu-icon" onClick={handleNavBar} type="button">
+                    <img src={menuIcon} alt="Botão do menu" />
+                </button>
+            )}
+            
+            {statusNavBar && (
                 <nav className="menu-navigation">
-                    <button className="close-button" onClick={closeNavBar} type="button"> 
+                    <button className="close-button" onClick={handleNavBar} type="button"> 
                         <img src={closeButton} alt="Botão de fechar o menu" />
                     </button>
 
@@ -66,8 +51,8 @@ export const MobileMenu = () => {
                         <CustomLink path={pathActive} to='/contato'> Contato </CustomLink>
                     </ul>
                 </nav>
-            }
-
+            )}
+    
             <div className="logo">
                 <img src={logo} alt="Logo do site"/>
             </div>

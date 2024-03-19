@@ -6,7 +6,7 @@ export const Project = ({ item }) => {
         <div className="project-container">
             <div className="picture-container">
                 <picture>
-                    <source className="source-gif" media="(max-width: 425px)" srcSet={item.imageS} />
+                    <source className="source-gif" media="(max-width: 675px)" srcSet={item.imageS} />
                     <img className="image-gif" src={item.image} alt="Imagem do projeto" />
                 </picture>
             </div>
