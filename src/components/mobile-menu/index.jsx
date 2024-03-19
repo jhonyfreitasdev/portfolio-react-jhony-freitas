@@ -19,6 +19,8 @@ export const MobileMenu = () => {
     const changePath = () => {
         const path = window.location.pathname
         setPathActive(path)
+
+        setStatusNavBar(false)
     }
     
     const CustomLink = (props) => {
