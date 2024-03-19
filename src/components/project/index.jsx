@@ -18,7 +18,7 @@ export const Project = ({ item }) => {
                 <Skills skill1={item.skills[0]} skill2={item.skills[1]} skill3={item.skills[2]} skill4={item.skills[3]} />
 
                 {item.repoLink !== '' ?
-                    <div>
+                    <div className="div-button">
                         <a className="button" href={item.repoLink} target="_blank" rel="noreferrer"> Repositório </a>
                         <a className="button" href={item.pageLink} target="_blank" rel="noreferrer"> Página </a>
                     </div>
